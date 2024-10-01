@@ -1,0 +1,113 @@
+.fw-tabs-container .fw-tabs ul {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+.fw-tabs-container .fw-tabs ul:before,
+.fw-tabs-container .fw-tabs ul:after {
+	content: " ";
+	display: table;
+}
+.fw-tabs-container .fw-tabs ul:after {
+	clear: both;
+}
+.fw-tabs-container .fw-tabs ul li {
+	&:before {
+		display: none;
+	}
+	.tabs-icon {
+		position: relative;
+		font-size: 34px;
+		margin-right: 10px;
+		color: $colorTextMedium;
+		vertical-align: bottom;
+	}
+}
+.fw-tabs-container .fw-tabs ul li a {
+	position: relative;
+	display: block;
+	padding: 30px 40px 25px;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.5em;
+	color: $colorTextMedium;
+	text-decoration: none;
+	margin-bottom: 2px;
+	transition: .3s;
+
+	&:after {
+		content: '';
+		position: absolute;
+		background-color: $colorBgMedium;
+		top: 100%;
+		left: 0;
+		height: 3px;
+		width: 100%;
+		transition: .3s;
+	}
+}
+.fw-tabs-container .fw-tabs ul li a:focus {
+	outline: medium none;
+}
+.fw-tabs-container .fw-tabs ul li.ui-state-active a {
+	color: $colorTextHeading;
+	margin-bottom: 0;
+
+	&:after {
+		width: 80%;
+		left: 10%;
+		background-color: $colorSecondary;
+	}
+}
+.fw-tabs-container .fw-tabs ul li.ui-state-active .tabs-icon {
+	color: $colorMain;
+
+}
+.fw-tabs-container.tabs-justified .fw-tabs ul li {
+	float: none;
+	display: table-cell;
+	width: 1%;
+	padding: 0;
+	text-align: center;
+	vertical-align: bottom;
+}
+.fw-tabs-container.tabs-justified .fw-tabs ul li.ui-state-active {
+	a {
+		background-color: #fff;
+	}
+}
+.fw-tabs-container .fw-tab-content {
+	clear: both;
+	overflow: hidden;
+	display: none;
+	padding: 50px;
+	font-weight: 600;
+	background-color: #fff;
+}
+.fw-tabs-container .fw-tab-content img {
+	float: left;
+	margin: 5px 20px 5px 0;
+}
+.fw-tabs-container .fw-tab-content p:last-child {
+	margin-bottom: 0;
+}
+
+.fw-tabs-container.tabs-vertical {
+	overflow: hidden;
+	background-color: #fff;
+
+	.fw-tabs {
+		float: left; 
+		width: 35%;
+
+		ul li {
+			border-right: 3px solid $colorBgMedium;
+		}
+		 ul li.ui-state-active a {
+		 	margin-bottom: 2px;
+		 }
+	}
+	.fw-tab-content {
+		clear: none;
+	}
+}

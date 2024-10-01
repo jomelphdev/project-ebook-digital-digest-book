@@ -1,0 +1,48 @@
+.testimonial-carousel.owl-carousel {
+	padding: 0 35px;
+	
+	.owl-prev, .owl-next {
+		margin-top: -34px;
+	}
+}
+.Testimonial {
+
+	.testimonial-meta {
+		position: relative;
+		display: inline-block;
+
+		.testimonial-author {
+			font-size: 14px;
+			font-weight: 600;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			color: $colorTextHeading;
+		}
+
+		a.testimonial-company {
+			color: $colorMain;
+		}
+
+		.testimonial-company {
+			position: relative;
+			color: $colorText;
+			font-size: 13px;
+			font-weight: 600;
+			letter-spacing: 0.05em;
+		}
+	}
+
+	.testimonial-text-wrapper {
+		position: relative;
+		padding: 40px 10% 50px;
+
+		.testimonial-text {
+			font-size: 24px;
+			line-height: 1.66em;
+
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

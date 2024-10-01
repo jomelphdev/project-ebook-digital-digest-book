@@ -1,0 +1,168 @@
+{
+    "key": "group_57c80b1059dd7",
+    "title": "Template - Contact",
+    "fields": [
+        {
+            "key": "field_595e2d52164e2",
+            "label": "Subtitle",
+            "name": "subtitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_57c94f2a1c5c8",
+            "label": "Contact Form 7 Shortcode",
+            "name": "contact_form_7_shortcode",
+            "type": "text",
+            "instructions": "Insert your Contact Form 7 shortcode. You can create one in <a href=\"http:\/\/localhost\/odrin\/wp-admin\/admin.php?page=wpcf7\">Contact &gt; Contact Forms<\/a>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "[contact-form-7 id=\"XX\" title=\"XXXX\"]",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5b0bfad65d8cb",
+            "label": "Show Map",
+            "name": "show_map",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Show Google Map",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_57c80b27af100",
+            "label": "Location",
+            "name": "location",
+            "type": "google_map",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5b0bfad65d8cb",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "center_lat": "",
+            "center_lng": "",
+            "zoom": "",
+            "height": ""
+        },
+        {
+            "key": "field_57c81a17a5541",
+            "label": "Map Zoom",
+            "name": "map_zoom",
+            "type": "number",
+            "instructions": "Enter map zoom level from 1 to 20.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5b0bfad65d8cb",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 15,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 1,
+            "max": 20,
+            "step": ""
+        },
+        {
+            "key": "field_57c94426bcf0d",
+            "label": "Marker",
+            "name": "marker",
+            "type": "image",
+            "instructions": "Upload custom marker image.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5b0bfad65d8cb",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-contact.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1527511871
+}

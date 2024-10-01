@@ -1,0 +1,338 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Base
+ * ----------------------------------------------------------------------------------------
+ */
+
+ html {
+	height: -webkit-fill-available;
+  }
+
+ body {
+	min-height: 100vh;
+	min-height: -webkit-fill-available;
+ }
+
+body {
+	color: $colorText;
+	font-size: $fontsize;
+	font-weight: $fontWeightBase;
+	line-height: $baseline;
+	letter-spacing: $letterspacing;
+	-webkit-font-smoothing: antialiased;
+	font-variant-ligatures: no-common-ligatures;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	@if $colorBgBody {
+		background-color: $colorBgBody;
+	}
+	
+	&:before {
+		/* never visible - this is used in jQuery to check the current MQ */ 
+		content: 'mobile';
+		display: none;
+	}
+
+}
+
+body.body--disabled {
+	overflow: hidden;
+	height: 0px;
+}
+
+/**
+ * Default spacing for paragraphs.
+ */
+p {
+	margin-bottom: $baseline;
+}
+
+p + p:last-of-type {
+	margin-bottom: 0;
+}
+
+/**
+*  Lists
+*/
+ul, ol {
+	padding-left: 30px;
+	list-style-position: outside;
+}
+
+
+/**
+ * Default styles for all headings.
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0.8em;
+	color: $colorTextHeading;
+	font-weight: $fontweightHeading;
+	line-height: 1.4;
+}
+
+/**
+ * Individual styles for the headings.
+ */
+h1 {
+	font-size: 54px;
+}
+
+h2 {
+	font-size: 46px;
+}
+
+h3 {
+	font-size: 34px;
+}
+
+h4 {
+	font-size: 28px;
+}
+
+h5 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+h6 {
+	font-size: 18px;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+
+/**
+ * Links.
+ */
+a, a:focus {
+	color: $colorLink;
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+}
+
+a:hover, a:active {
+	color: $colorSecondary;
+	text-decoration: none;
+}
+
+a.link-border {
+	border-bottom: 2px solid $colorMain;
+}
+
+ /**
+ * Selection Color.
+ */
+::selection {
+	background: $colorMain;
+	color: #fff;
+}
+
+/**
+ * HR.
+ */
+hr {
+	margin: $baseline 0;
+	border-color: $colorBorder;
+}
+
+br {
+	margin-bottom: 10px;
+}
+/**
+ * Make sure videos and embeds fit inside their containers.
+ */
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+/**
+ * Code.
+ */
+code {
+	white-space: normal;
+}
+
+ /**
+ * Responsive Images.
+ */
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	outline: 1px solid transparent;
+	-ms-interpolation-mode: bicubic;
+	filter: none; 
+	filter: blur(0px); 
+	-moz-filter: blur(0px); 
+	-ms-filter: blur(0px);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}
+
+ /**
+ * No Outline.
+ */
+*:focus {
+	outline: 0;
+}
+
+/**
+*  Other
+*/
+i {
+	display: inline-block;
+}
+
+del {
+	text-decoration-color: $colorSecondary;
+}
+
+/**
+*  Blockquote
+*/
+
+blockquote {
+	position: relative;
+	border: none;
+	text-align: center;
+	color: $colorText;
+	margin: 40px 0;
+
+	p {
+		position: relative;
+		font-size: 26px;
+		line-height: 1.22em;
+		padding: 30px 15px;
+	}
+
+	footer {
+		text-align: center;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-top: 10px;
+
+		cite {
+			position: relative;
+			font-style: normal;
+			font-size: 12px;
+			padding-left: 40px;
+			color: $colorTextHeading;
+
+			&:before {
+				position: absolute;
+				content: '';
+				top: 50%;
+				left: -15px;
+				height: 2px;
+				width: 40px;
+				margin-top: -1px;
+				background-color: $colorMain
+			}
+
+		}
+		&:before {
+			display: none;
+		}
+	}
+}
+
+/**
+*  Table
+*/
+
+table {
+	border: none;
+	margin-bottom: $baseline;
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 10px 0;
+
+	th {
+		padding: 20px 32px;
+		border-bottom: 2px solid $colorBorderDark;
+		border-right: none;
+		background-color: transparent;
+	}
+
+	td, td.label {
+		display: table-cell;
+		font-weight: 400;
+		padding: 20px 32px;
+		border-bottom: 1px solid $colorBorderLight;
+		border-right: none;
+		font-size: 100%;
+		text-align: left;
+		p {
+			padding: 0;
+		}
+	}
+
+	tr {
+		font-style: normal;
+	}
+
+	tr:nth-child(2n) {
+		th, td {
+			background-color: transparent;
+		}
+	} 
+	thead + tbody tr:first-child {
+		th {
+			border-top: none;
+		}
+	}
+	thead + tbody tr {
+		&, &:first-child {	
+			td {
+				border-top: none;
+			}
+		}
+	}
+	tr:first-child {
+		th {
+			border-top: 2px solid $colorBorderDark;
+		}
+		td, td.label {
+			border-top: 1px solid $colorBorderLight;
+		}
+	}
+}
+
+/**
+*  Definition List
+*/
+dt {
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+dd {
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+/**
+*  Sup
+*/
+
+sup {
+	color: #c0392b;
+	left: 2px;
+}
+
+/**
+*  Mark
+*/
+
+mark {
+    color: #000;
+    background: none;
+    border-bottom: 1px dashed $colorSecondary;
+}

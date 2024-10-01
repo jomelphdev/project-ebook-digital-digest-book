@@ -1,0 +1,4064 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Odrin\n"
+"POT-Creation-Date: 2020-05-21 10:33+0300\n"
+"PO-Revision-Date: 2019-09-29 14:34+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:26
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:28
+msgid "WHATEVER YOU WERE LOOKING FOR WAS NOT FOUND."
+msgstr ""
+
+#: 404.php:31 search.php:93
+msgid "Back To Home"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:386
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:827
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2533
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:387
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:388
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:1121
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2549
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:14
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:11
+msgid "Type"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3509
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3509
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: TGM-Plugin-Activation/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: archive.php:69
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/views/view.php:182
+#: loop/loop-posts.php:44 search.php:63
+msgid "Read More"
+msgstr ""
+
+#: archive.php:79 loop/loop-events.php:194 loop/loop-posts.php:53 search.php:73
+msgid "Next Page"
+msgstr ""
+
+#: archive.php:81 loop/loop-events.php:196 loop/loop-posts.php:55 search.php:75
+msgid "Previous Page"
+msgstr ""
+
+#: archive.php:97 attachment.php:46 page.php:40 search.php:91
+#: single-event.php:212 single.php:121
+msgid "Sorry, no posts were found!"
+msgstr ""
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:18
+msgid "Recent Comments"
+msgstr ""
+
+#: comments.php:28
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:29
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Trackbacks and Pingbacks"
+msgstr ""
+
+#: comments.php:51
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:65
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:20
+#: woocommerce/single-product-reviews.php:79
+msgid "Name"
+msgstr ""
+
+#: comments.php:65
+msgid "Author"
+msgstr ""
+
+#: comments.php:68 woocommerce/single-product-reviews.php:81
+msgid "Email"
+msgstr ""
+
+#: comments.php:72
+msgid "Website"
+msgstr ""
+
+#: comments.php:76
+msgid "Comment"
+msgstr ""
+
+#: comments.php:76
+msgid "Comment..."
+msgstr ""
+
+#: comments.php:77
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:78
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: comments.php:81
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:82
+#, php-format
+msgid "Leave a Reply to %s. "
+msgstr ""
+
+#: comments.php:83
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:84
+msgid "Post Comment"
+msgstr ""
+
+#: demo-content/demo1/manifest.php:7
+msgid "1 Click Demo One"
+msgstr ""
+
+#: demo-content/demo2/manifest.php:7
+msgid "1 Click Demo Two"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/config.php:8
+msgid "Accordion"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/config.php:9
+msgid "Add an Accordion"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/config.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/button/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/events/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/list/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/config.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/config.php:10
+msgid "Content Elements"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:9
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/config.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:22
+msgid "Tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:10
+msgid "Add/Edit Tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:11
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:24
+msgid "Create your tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:16
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:24
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:34
+#: inc/includes/acf-fields/acf-fields.php:687
+#: inc/includes/acf-fields/acf-fields.php:1179
+msgid "Title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:22
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:125
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:40
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:11
+msgid "Content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:29
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:20
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:180
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:189
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:160
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:119
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:95
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:94
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:202
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:112
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:33
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:58
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:54
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:27
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:27
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:40
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:257
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:22
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:141
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:162
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:47
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:159
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:17
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:354
+msgid "Hide on Desktop"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:30
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:21
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:181
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:190
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:161
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:120
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:96
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:95
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:203
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:113
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:34
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:59
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:55
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:28
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:28
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:41
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:258
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:23
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:142
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:163
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:48
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:160
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:18
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:355
+msgid "Hide the shortcode when the display width is higher or equal to 991px"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:33
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:47
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:71
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:24
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:38
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:62
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:158
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:184
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:198
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:222
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:89
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:124
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:157
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:170
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:193
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:207
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:231
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:38
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:52
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:85
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:164
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:178
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:202
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:49
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:123
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:137
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:161
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:49
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:99
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:113
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:137
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:21
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:61
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:98
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:112
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:57
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:116
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:164
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:178
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:192
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:206
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:220
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:244
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:37
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:90
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:116
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:130
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:154
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:37
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:51
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:75
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:62
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:76
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:100
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:58
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:72
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:96
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:31
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:45
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:69
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:31
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:45
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:69
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:44
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:58
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:82
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:39
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:73
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:90
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:104
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:122
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:136
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:171
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:192
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:229
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:247
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:261
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:275
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:299
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:26
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:40
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:31
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:145
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:159
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:183
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:46
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:166
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:180
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:204
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:51
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:65
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:89
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:63
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:149
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:163
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:177
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:201
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:21
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:35
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:59
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:64
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:99
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:132
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:145
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:206
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:259
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:308
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:358
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:372
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:396
+#: framework-customizations/theme/options/general-settings.php:162
+#: framework-customizations/theme/options/general-settings.php:176
+#: framework-customizations/theme/options/general-settings.php:255
+#: framework-customizations/theme/options/general-settings.php:269
+#: framework-customizations/theme/options/general-settings.php:283
+#: framework-customizations/theme/options/general-settings.php:372
+msgid "Yes"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:37
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:51
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:75
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:28
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:66
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:162
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:188
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:202
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:226
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:85
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:128
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:161
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:174
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:197
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:211
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:235
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:56
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:89
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:168
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:182
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:206
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:53
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:127
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:141
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:165
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:53
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:103
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:117
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:141
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:25
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:65
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:102
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:116
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:61
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:120
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:168
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:182
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:196
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:210
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:224
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:248
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:41
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:94
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:120
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:134
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:158
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:41
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:55
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:79
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:66
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:80
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:104
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:46
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:62
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:76
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:100
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:35
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:49
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:73
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:35
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:49
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:73
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:48
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:62
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:86
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:43
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:77
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:94
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:108
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:126
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:140
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:175
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:196
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:233
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:251
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:265
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:279
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:303
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:30
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:44
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:35
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:149
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:163
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:187
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:50
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:170
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:184
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:208
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:55
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:69
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:93
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:67
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:153
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:167
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:181
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:205
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:25
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:39
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:63
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:60
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:103
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:136
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:149
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:210
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:263
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:312
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:362
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:376
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:400
+#: framework-customizations/theme/options/general-settings.php:158
+#: framework-customizations/theme/options/general-settings.php:172
+#: framework-customizations/theme/options/general-settings.php:251
+#: framework-customizations/theme/options/general-settings.php:265
+#: framework-customizations/theme/options/general-settings.php:279
+#: framework-customizations/theme/options/general-settings.php:368
+msgid "No"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:43
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:34
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:194
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:203
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:174
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:133
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:109
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:108
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:216
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:126
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:47
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:72
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:68
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:41
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:41
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:54
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:271
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:36
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:155
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:176
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:61
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:173
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:31
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:368
+msgid "Hide on Mobile"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:44
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:35
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:195
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:204
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:175
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:134
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:110
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:109
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:217
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:127
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:48
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:73
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:69
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:55
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:272
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:37
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:156
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:177
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:62
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:174
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:32
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:369
+msgid "Hide the shortcode when the display width is lower than 991px"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:67
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:58
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:218
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:227
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:198
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:157
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:133
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:240
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:150
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:71
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:96
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:92
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:65
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:65
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:78
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:295
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:179
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:200
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:85
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:197
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:55
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:392
+msgid "Animation on Scroll"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:68
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:59
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:219
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:228
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:199
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:158
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:134
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:241
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:151
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:72
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:97
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:93
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:66
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:66
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:79
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:296
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:180
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:201
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:86
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:198
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:56
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:393
+msgid "Animate element when it is scrolled in view."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:84
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:75
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:235
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:244
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:215
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:174
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:150
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:257
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:167
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:88
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:113
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:109
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:82
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:82
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:95
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:312
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:196
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:217
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:102
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:214
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:72
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:409
+msgid "Animation Type"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:86
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:77
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:237
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:246
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:217
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:176
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:152
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:259
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:169
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:90
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:115
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:111
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:84
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:84
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:97
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:314
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:198
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:219
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:104
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:216
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:74
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:411
+msgid "fadeIn"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:87
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:78
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:238
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:247
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:218
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:177
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:153
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:260
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:170
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:91
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:116
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:112
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:85
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:85
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:98
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:315
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:199
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:220
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:105
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:217
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:75
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:412
+msgid "fadeInUp"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:88
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:79
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:239
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:248
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:219
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:178
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:154
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:261
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:171
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:92
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:117
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:113
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:86
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:86
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:99
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:316
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:200
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:221
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:106
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:218
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:76
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:413
+msgid "fadeInLeft"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:89
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:80
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:240
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:249
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:220
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:179
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:155
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:262
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:172
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:93
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:118
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:114
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:87
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:87
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:100
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:317
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:201
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:222
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:107
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:219
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:77
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:414
+msgid "fadeInRight"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:90
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:81
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:241
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:250
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:221
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:180
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:156
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:263
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:173
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:94
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:119
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:115
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:88
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:88
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:101
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:318
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:202
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:223
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:108
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:220
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:78
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:415
+msgid "fadeInDown"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:91
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:82
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:242
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:251
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:222
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:181
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:157
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:264
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:174
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:95
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:120
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:116
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:89
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:89
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:102
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:319
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:203
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:224
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:109
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:221
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:79
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:416
+msgid "flipInX"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:92
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:83
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:243
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:252
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:223
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:182
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:158
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:265
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:175
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:96
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:121
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:117
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:90
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:90
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:103
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:320
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:204
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:225
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:110
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:222
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:80
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:417
+msgid "flipInY"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:93
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:84
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:244
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:253
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:224
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:183
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:159
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:266
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:176
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:97
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:122
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:118
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:91
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:91
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:104
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:321
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:205
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:226
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:111
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:223
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:81
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:418
+msgid "zoomIn"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:99
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:90
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:250
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:259
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:230
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:189
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:165
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:272
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:182
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:103
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:128
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:124
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:97
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:97
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:110
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:327
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:211
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:232
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:117
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:229
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:87
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:424
+msgid "Delay (in miliseconds)"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/config.php:8
+msgid "Blockquote"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/config.php:9
+msgid "Add a Blockquote"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blockquote/options.php:15
+msgid "Cite"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/config.php:8
+msgid "Blog"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/config.php:9
+msgid "Add Latest Blog Posts"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:11
+msgid "Number of Posts To Show"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:11
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:18
+msgid "Select -1 for unlimited."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:23
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:22
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:28
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:29
+#: inc/includes/acf-fields/acf-fields.php:969
+msgid "Number of Columns"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:24
+msgid "Select the number of columns for the Posts."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:49
+msgid "Blog Style"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:50
+msgid "Choose the layout of the shortcode."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:52
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:84
+msgid "Default"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:53
+msgid "Events Styling"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:62
+msgid "Display Post Date"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:67
+msgid "Display Post Categories"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:74
+msgid "Crop and Align Images"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:79
+msgid "Show Excerpt"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:82
+msgid "Title Text Alignment"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:83
+msgid "Select the text alignment of the title."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:87
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:98
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:109
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:86
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:48
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:134
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:153
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:43
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:168
+msgid "Left"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:88
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:99
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:110
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:87
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:133
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:44
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:169
+msgid "Centered"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:89
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:100
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:111
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:88
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:52
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:135
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:155
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:45
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:170
+msgid "Right"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:93
+msgid "Excerpt Text Alignment"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:94
+msgid "Select the text alignment of the excerpt."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:104
+msgid "Read More Alignment"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:105
+msgid "Select the Read More button alignment."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:121
+msgid "Hide or Show Specific Categories"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:122
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:48
+#: inc/includes/acf-fields/acf-fields.php:905
+msgid "Select to Hide or Show the selected Specific Categories."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:125
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:51
+msgid "Hide"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:129
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:55
+#: inc/includes/acf-fields/acf-fields.php:563
+#: inc/includes/acf-fields/acf-fields.php:848
+#: inc/includes/acf-fields/acf-fields.php:867
+#: inc/includes/acf-fields/acf-fields.php:1022
+msgid "Show"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:133
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:59
+#: inc/includes/acf-fields/acf-fields.php:926
+msgid "Specific Categories"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:134
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:60
+msgid "The specific categories to show or hide."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:153
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:171
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:85
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:103
+msgid "View All"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:154
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:86
+msgid "Display View All button."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:170
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:102
+msgid "View All Button Label"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/options.php:172
+msgid ""
+"<strong>Important</strong> Make sure than you have published one page that "
+"uses the Page Template \"Blog\"."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/blog/views/view.php:206
+msgid ""
+"<strong>Note!</strong> Make sure than you have published one page that uses "
+"the Page Template \"Blog\" in order to display the View All button."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/config.php:6
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:48
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:11
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:40
+msgid "Book Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/config.php:7
+msgid "Add a Book Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:12
+msgid "Layout"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:31
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:23
+msgid "Book Image Type"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:32
+msgid "Select between custom image or a Product Image."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:35
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:27
+msgid "Custom Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:39
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:31
+msgid "Product Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:49
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:9
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:41
+msgid ""
+"Either upload a new, or choose an existing image from your media library"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:56
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:16
+msgid "Width"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:57
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:17
+msgid "Set image width"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:62
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:22
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:10
+msgid "Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:63
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:23
+msgid "Set image height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:81
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:56
+msgid "Add Page Flip Effect"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:82
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:57
+msgid "Add a rotating effect to the image."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:98
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:143
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:23
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:73
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:118
+msgid "Book Thickness"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:100
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:145
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:25
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:129
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:99
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:104
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:75
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:120
+#: inc/helpers.php:244 inc/includes/acf-fields/acf-fields.php:607
+#: inc/includes/acf-fonticonpicker/fonticonpicker-v5.php:98
+#: inc/includes/option-types/icon-select/class-fw-option-type-icon-select.php:105
+msgid "None"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:101
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:146
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:26
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:76
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:121
+msgid "Thin"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:102
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:147
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:27
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:27
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:77
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:122
+msgid "Normal"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:103
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:148
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:28
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:78
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:123
+msgid "Thick"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:115
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:33
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:90
+msgid "Image Link"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:116
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:34
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:91
+msgid "Where should your image link to?"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:120
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:45
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:38
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:95
+msgid "Open Link in New Window"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:121
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:39
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:96
+msgid "Select here if you want to open the linked page in a new window"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:136
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:59
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:111
+msgid "Book"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:153
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:34
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:128
+msgid "Show Read The Book Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:154
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:129
+msgid "Show Read The Book Button over the image."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:166
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:141
+msgid "Show Price"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:167
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:142
+msgid "Show Price over the image."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:183
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:158
+#: inc/includes/acf-fields/acf-fields.php:571
+#: inc/includes/acf-fields/acf-fields.php:735
+msgid "Background Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/options.php:184
+msgid "The image that will be positioned behind your book."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/book-image/views/view.php:187
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/views/view.php:135
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/views/view.php:132
+#: inc/helpers.php:603 woocommerce/single-product/product-image.php:55
+msgid "Read the Book"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/config.php:8
+#: inc/includes/builder-templates/full.php:5
+msgid "Books Panel"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/config.php:9
+msgid "Add panel with thumbnails and text for each of them."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:9
+msgid "Books"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:18
+msgid "Add Books that will appear in the carousel."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:35
+msgid "Show Read The Book Button in Book Description"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:48
+msgid "Show Add to Cart Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:49
+msgid "Show Add to Cart Button in Book Description"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:68
+msgid "Columns"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:81
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:45
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:53
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:59
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:202
+msgid "Custom Styling"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:82
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:46
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:54
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:43
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:60
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:203
+msgid "Enables more customization options."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:96
+msgid "Column Spacing"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:97
+msgid "Select the column spacing between items."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:107
+msgid "Row Spacing"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:108
+msgid "Select the row spacing between items."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:132
+msgid "Book Thumbnail Typography"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:133
+msgid "Specify the book thumbnail title typography. Numbers are in pixels."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:150
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:109
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:249
+msgid "Book Title Typography"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/options.php:151
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:250
+msgid "Specify the book title typography. Numbers are in pixels."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/books-panel/views/view.php:140
+msgid "View Book"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/config.php:8
+msgid "Icon Box"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/config.php:9
+msgid "Add an Icon Box"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:10
+msgid "Box Style"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:11
+msgid "Choose between horizontal and vertical layout."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:14
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:9
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:13
+msgid "Horizontal"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:18
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:17
+msgid "Vertical"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:24
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:30
+msgid "Select an Icon"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:28
+msgid "Box Title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:32
+msgid "Box Content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:60
+msgid "Icon Size"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:61
+msgid "Select the icon size."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:71
+msgid "Icon Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:72
+msgid "Select the icon color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:91
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:88
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:67
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:77
+msgid "Title Typography"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:92
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:89
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:68
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:78
+msgid "Specify the title typography. Numbers are in pixels."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/box-icon/options.php:110
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:125
+msgid "Specify the content typography. Numbers are in pixels."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/config.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:11
+msgid "Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/config.php:9
+msgid "Add a Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:8
+msgid "Button Label"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:9
+msgid "This is the text that appears on your button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:23
+msgid "Button Type"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:24
+msgid "Select between Normal button and a Product Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:31
+#: inc/includes/acf-fields/acf-fields.php:1099
+#: woocommerce/order/order-details.php:44
+msgid "Product"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:38
+msgid "Button Link"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:39
+msgid "Where should your button link to"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:46
+msgid "Select to open the linked page in a new window"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:60
+msgid "Select a Book to link to the button."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:67
+msgid "Button Link Type"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:68
+msgid "Select the Button functionality."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:70
+msgid "View Book Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:71
+msgid "Add To Cart Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:72
+msgid "Read The Book Button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:82
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:18
+msgid "Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:85
+msgid "Colored"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:86
+msgid "Success"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:87
+msgid "Info"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:88
+msgid "Danger"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:89
+msgid "Warning"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:18
+msgid "Custom Padding"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:32
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:14
+msgid "Padding"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:35
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:145
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:17
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:131
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:281
+msgid ""
+"Specify the top, right, bottom and left padding around the content. For "
+"example 50px 20px 50px 20px"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:38
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:20
+msgid "Mobile Padding"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:41
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:151
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:23
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:137
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:287
+msgid ""
+"Specify the top, right, bottom and left padding around the content for "
+"mobile. For example 30px 10px 30px 10px"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:58
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:36
+msgid "Background Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:72
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:50
+msgid "Choose Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:73
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:51
+msgid "Please select the background color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:84
+msgid "Select Text and Buttons Position"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/config.php:8
+msgid "Image and Content Slider"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/config.php:9
+msgid "Add Elements with Image and Text."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:9
+msgid "Item"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:10
+msgid "Add an Item"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:16
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:129
+msgid "Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:21
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:9
+msgid "Heading Title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:26
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:14
+msgid "Heading Subtitle"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:35
+msgid "Item Content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:40
+msgid "Add Item"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:68
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:57
+msgid "First Letter Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:69
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:58
+msgid ""
+"Select the first letter color. Special First Letter has to be activated from "
+"Theme Settings."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:106
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:95
+msgid "Subtitle Typography"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:107
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:85
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:96
+msgid "Specify the subtitle typography. Numbers are in pixels."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:112
+msgid "Subtitle Accent Line"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:113
+msgid "Display accent line before the subtitle."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:124
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:94
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:99
+msgid "Subtitle Border"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:125
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:95
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:100
+msgid "Select the subtitle border type."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:130
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:100
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:105
+msgid "Solid"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:131
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:101
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:106
+msgid "Dashed"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:132
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:102
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:107
+msgid "Dotted"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:136
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:106
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:111
+msgid "Subtitle Border Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:137
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:107
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:112
+msgid "Select the subtitle border color."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:142
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:128
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:278
+msgid "Content Padding"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:148
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:134
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:284
+msgid "Content Mobile Padding"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:160
+msgid "Enable Images Lightbox"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:161
+msgid "Open images in a lightbox on click."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:174
+msgid "Slider Auto-Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:175
+msgid "Dinamically change each slider height, depending on the content height."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:188
+msgid "Equal Image and Content Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/content-slider/options.php:189
+msgid "Make the content and image of equal height."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/config.php:8
+msgid "Events"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/config.php:9
+msgid "Add Events."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:10
+msgid "Number of Events To Show"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:23
+msgid "Select the number of columns for the Events."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:34
+#: inc/includes/acf-fields/acf-fields.php:1011
+msgid "Show Past Events"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:47
+#: inc/includes/acf-fields/acf-fields.php:902
+msgid "Hide or Show Categories"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:73
+#: inc/includes/acf-fields/acf-fields.php:1059
+msgid "Display Events Year"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:74
+#: inc/includes/acf-fields/acf-fields.php:1062
+msgid "Show the events year next to the day and month"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/options.php:104
+msgid ""
+"<strong>Important</strong> Make sure than you have published one (and only "
+"one) page that uses the Page Template \"Events\"."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/views/view.php:192
+msgid "Past Events"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/events/views/view.php:271
+msgid ""
+"<strong>Note!</strong> Make sure than you have published one (and only one) "
+"page that uses the Page Template \"Events\" in order to display the View All "
+"button."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/config.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/options.php:9
+msgid "Featured Books"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/featured-books/config.php:9
+msgid "Add shop that shows the selected WooCommerce Books."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/config.php:8
+msgid "List"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/config.php:9
+msgid "Add a numbered or unordered list"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:11
+msgid "List Type"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:14
+msgid "Numbered"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:18
+msgid "Unordered"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:23
+msgid "List Item"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:24
+msgid "Add a list item"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:28
+msgid "List Item Title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:34
+msgid "List Item Content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:39
+msgid "Add"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:44
+msgid "List Items Position"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/list/options.php:45
+msgid "Select the Title and Content Position"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:8
+msgid "Choose Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/config.php:6
+msgid "Video"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/config.php:7
+msgid "Add a Video"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/config.php:8
+msgid "Media Elements"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:9
+msgid "Insert Video URL"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:10
+msgid "Insert Video URL to embed this video"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:14
+msgid "Video Width"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:15
+msgid "Enter a value for the width"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:20
+msgid "Video Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/media-video/options.php:21
+msgid "Enter a value for the height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:8
+msgid "Message"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:9
+msgid "Notification message"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:11
+msgid "Message!"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:15
+msgid "Notification type"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:18
+msgid "Congratulations"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:19
+msgid "Information"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:20
+msgid "Alert"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/notification/options.php:21
+msgid "Error"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/config.php:8
+msgid "Recent Books"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/config.php:9
+msgid "Add shop that shows the WooCommerce Books."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:17
+msgid "Number of Products to Display"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/recent-books/options.php:34
+msgid "Show Only Products from Specific Category"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:8
+msgid "Custom Section ID"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:9
+msgid ""
+"Add a Section ID, which can be used as a link from the navigation menu. For "
+"example: \"about-me\""
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:69
+msgid "Full Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:70
+msgid "If enabled, will make the section take the full height of the viewport."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:86
+msgid "Center Content Vertically"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:87
+msgid "Centers the items in the section vertically."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:100
+msgid "Display Arrow"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:101
+msgid "Display an arrow, which scrolls the section on click."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:118
+#: inc/includes/acf-fields/acf-fields.php:10
+msgid "Full Width"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:119
+msgid ""
+"If enabled, will remove the left and right padding of the columns in this "
+"section."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:132
+msgid "Equal Columns Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:133
+msgid "Will make all inner columns heights equal to the highest one."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:146
+msgid "Text Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:147
+msgid "Changes the text color of the elements in the section."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:150
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:14
+#: framework-customizations/theme/options/general-settings.php:34
+#: framework-customizations/theme/options/general-settings.php:60
+#: framework-customizations/theme/options/general-settings.php:237
+#: inc/includes/acf-fields/acf-fields.php:115
+#: inc/includes/acf-fields/acf-fields.php:608
+#: inc/includes/acf-fields/acf-fields.php:787
+msgid "Light"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:154
+#: framework-customizations/theme/options/general-settings.php:38
+#: framework-customizations/theme/options/general-settings.php:64
+#: framework-customizations/theme/options/general-settings.php:241
+#: inc/includes/acf-fields/acf-fields.php:114
+#: inc/includes/acf-fields/acf-fields.php:609
+#: inc/includes/acf-fields/acf-fields.php:788
+msgid "Dark"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:159
+msgid "Please select the background image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:167
+msgid "Background Repeat"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:168
+msgid "Enable if your background is a repeatable pattern."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:188
+msgid "Filter"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:189
+msgid "Color filter over the background image or video."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:203
+msgid "Filter Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:206
+msgid "Apply a color for the filter on the image or video."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:209
+msgid "Filter Opacity"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:226
+msgid "Parallax Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:237
+msgid "Background Video"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:238
+msgid ""
+"Insert Video URL to embed this video. Note that the video is not displayed "
+"on mobile, it uses the background image instead."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:244
+msgid "Background Video Sound"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/config.php:8
+msgid "Spacer"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/config.php:9
+msgid "Add a Spacer"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:11
+msgid "Enter the height. For example: 100px"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:16
+msgid "Mobile Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/spacer/options.php:17
+msgid ""
+"Enter the height for when the site is viewed on mobile. For example: 50px"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:10
+msgid "Write the heading title content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:15
+msgid "Write the heading subtitle content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:28
+msgid "Custom Heading Styling"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:43
+msgid "Select the first letter color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:48
+msgid "Title Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:49
+msgid "Select the title color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:84
+msgid "Subitle Typography"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:88
+msgid "Subtitle Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:89
+msgid "Select the subtitle color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:117
+msgid "Heading Size"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:131
+msgid "Select Heading Position"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/config.php:8
+msgid "Special Text Block"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/config.php:9
+msgid "Add text block with title, subtitle and an image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:29
+#: inc/includes/acf-fields/acf-fields.php:364
+msgid "Subtitle"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:130
+msgid "Please select the image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:137
+msgid "Vertical Image Position"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:138
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:150
+msgid "Select which part of the image to be displayed with a priority."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:141
+msgid "Top"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:142
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:154
+msgid "Center"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:143
+msgid "Bottom"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-text-block/options.php:149
+msgid "Horizontal Image Position"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/config.php:9
+msgid "Add some Tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:10
+msgid "Select the style of the tabs."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:23
+msgid "Add/Edit Tab"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/config.php:8
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/config.php:9
+msgid "Add Testimonials."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:9
+msgid "Testimonial"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:10
+msgid "Add a Testimonial"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:15
+msgid "Testimonial Text"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:25
+msgid "Company Name"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:30
+msgid "Testimonial URL"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:35
+msgid "Add Testimonial"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:38
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:163
+msgid "Content Text Alignment"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:39
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:164
+msgid "Select the text alignment of the content."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:88
+msgid "Name Typography"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:89
+msgid "Specify the name typography. Numbers are in pixels."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:106
+msgid "Company Typography"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:107
+msgid "Specify the company typography. Numbers are in pixels."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:124
+msgid "Content Typography"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonial-carousel/options.php:146
+msgid "Carousel Auto-Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/config.php:8
+msgid "Text Block"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/config.php:9
+msgid "Add a Text Block"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/text-block/options.php:12
+msgid "Enter some content for this texblock"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/config.php:8
+msgid "Upcoming Book"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/config.php:9
+msgid "Add an Upcoming Book."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:24
+msgid ""
+"Select between custom image or a Product Image. Note: Since Odrin 1.1.2 you "
+"can select between image and product(book)."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:157
+msgid "Content Background Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:158
+msgid "Leave empty for transparent"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:175
+#: inc/includes/builder-templates/full.php:6
+msgid "Coming Soon"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:176
+msgid "Above Title Text"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:181
+msgid "Book Title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:189
+msgid "Book Short Description"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:231
+msgid "Above Title Typography"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:232
+msgid "Specify the above title typography. Numbers are in pixels."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:255
+msgid "Title Background Accent"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:256
+msgid "Display the pattern accent behind the title."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:267
+msgid "Countdown Numbers Size"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:268
+msgid "Select the font size of the countdown numbers."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:302
+msgid "Show Countdown"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:303
+msgid "Display a Countdown or text for the book release."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:321
+msgid "Release Date"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:322
+msgid "Enter the Release Date of the book."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:336
+msgid "OUT NOW"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:337
+msgid "Expired Text"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:338
+msgid "Enter the text that will be displayed when the timer expires."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:345
+msgid "Release Date Text"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/upcoming-book/options.php:346
+msgid "Enter text for the Release Date of the book."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:7
+msgid "General"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:12
+msgid "Google API Key*"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:13
+msgid ""
+"<strong>Important</strong>\tGoogle have changed their Google Maps policies "
+"and now an API Key has to be present for Google Maps to work. Google Maps is "
+"used in the Maps Shortcode. You can find more information about acquiring a "
+"key from <a href=\"https://developers.google.com/maps/documentation/android-"
+"api/signup\">here</a>."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:16
+msgid "Logo Name"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:17
+msgid "Write your website logo name"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:22
+msgid "Logo Image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:23
+msgid "Upload the logo image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:28
+msgid "Navigation Text Type"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:29
+msgid "Choose the color of the navigation menu text."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:42
+msgid "Navigation Background Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:45
+msgid "Default: #FAFAFA"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:48
+msgid "Footer Text"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:49
+msgid "Write your website footer text"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:54
+msgid "Footer Text Type"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:55
+msgid "Choose the color of the footer text."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:68
+msgid "Footer Background Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:75
+msgid "Background Pattern"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:141
+msgid "Footer Background Image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:142
+msgid "This will overwrite the Background Pattern above."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:148
+msgid "Styling and Layout"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:154
+msgid "Show Heading Special First Letter"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:155
+msgid "Display the special bordered first letter for the headings."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:168
+msgid "Show Paragraph Special First Letter"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:169
+msgid ""
+"Display the special first letter (dropcap) for the book preview and "
+"description paragraphs."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:180
+msgid "404 Background Image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:181
+msgid "Upload the background image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:186
+msgid "404 Page Text Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:187
+msgid "Select the color for the text message."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:191
+msgid "Light Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:192
+msgid "Dark Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:196
+msgid "404 Page Background Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:197
+msgid "The background color of the 404 Page, if there is no image."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:203
+msgid "Main Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:204
+msgid "Default: #FAAB9F"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:209
+msgid "Secondary Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:210
+msgid "Default: #D38D45"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:215
+msgid "Custom CSS"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:216
+msgid "Paste your custom CSS here."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:221
+#: functions.php:38
+msgid "WooCommerce"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:225
+msgid "Shop Page Header Image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:226
+msgid "Upload Shop Page Header background image"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:233
+msgid "Shop Header Text Color"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:234
+msgid "Changes the text color of the Shop title."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:247
+msgid "Hide Navigation Menu Profile Item"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:248
+msgid "Hides the Profile/Login/Register item from the navigation menu."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:261
+msgid "Always Show Cart Button"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:262
+msgid "Always show the cart button, even when the cart is empty."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:275
+msgid "Show Read the Book Button on Product Page"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:276
+msgid "Display the button next to the Add To Cart Button."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:289
+msgid "Typography"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:305
+msgid "Heading Font"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:320
+msgid "Subheading Font"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:335
+msgid "Body Font"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:340
+msgid "Social"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:344
+msgid "Mailchimp"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:350
+msgid "API Key"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:351
+msgid "Write your Mailchimp API key."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:352
+msgid ""
+"Write your Mailchimp API key. You can read more on how to acquire an API Key "
+"<a href=\"https://kb.mailchimp.com/integrations/api-integrations/about-api-"
+"keys#Find-or-Generate-Your-API-Key\">here</a>."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:357
+msgid "Mailchimp Subscription List ID"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:358
+msgid ""
+"The Mailchimp Subscription List ID that you want the users to be subscribed "
+"to. You can find it when you click your list in Mailchimp and go to Settings "
+"> List name and defaults."
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:364
+msgid "Mailchimp Double Opt-In"
+msgstr ""
+
+#: framework-customizations/theme/options/general-settings.php:365
+msgid "Should the subscriber be asced via email to confirm the subscription."
+msgstr ""
+
+#: functions.php:18
+msgid "Unyson"
+msgstr ""
+
+#: functions.php:23
+msgid "Advanced Custom Fields Pro"
+msgstr ""
+
+#: functions.php:30
+msgid "Envato Market"
+msgstr ""
+
+#: functions.php:45
+msgid "Subsolar Designs Extras"
+msgstr ""
+
+#: functions.php:53
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:60
+msgid "Subsolar Twitter Widget"
+msgstr ""
+
+#: functions.php:68
+msgid "Subsolar Mailchimp Widget"
+msgstr ""
+
+#: functions.php:76
+msgid "Odrin Functionalities"
+msgstr ""
+
+#: inc/helpers.php:226
+msgid ""
+"There is no product post type detected. Please install the corresponding "
+"plugin."
+msgstr ""
+
+#: inc/helpers.php:260
+#, php-format
+msgid ""
+"There is no %s taxonomy detected. Please install the corresponding plugin."
+msgstr ""
+
+#: inc/helpers.php:330
+msgid "&larr; Previous"
+msgstr ""
+
+#: inc/helpers.php:331
+msgid "Next &rarr;"
+msgstr ""
+
+#: inc/helpers.php:465 inc/helpers.php:530
+msgid "[Edit]"
+msgstr ""
+
+#: inc/helpers.php:470
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: inc/helpers.php:528
+msgid "Pingback:"
+msgstr ""
+
+#: inc/helpers.php:640
+msgid "Table of Contents"
+msgstr ""
+
+#: inc/helpers.php:705 inc/static.php:273
+msgid "Show Chapters"
+msgstr ""
+
+#: inc/hooks.php:78
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/hooks.php:79
+msgid "Add a sidebar for the blog and blog posts."
+msgstr ""
+
+#: inc/hooks.php:89
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/hooks.php:90
+msgid "Add a sidebar for the WooCommerce Shop Page."
+msgstr ""
+
+#: inc/hooks.php:102
+msgid "Footer Column 1"
+msgstr ""
+
+#: inc/hooks.php:103
+msgid "If this is set, your footer will be 1 column"
+msgstr ""
+
+#: inc/hooks.php:113
+msgid "Footer Column 2"
+msgstr ""
+
+#: inc/hooks.php:114
+msgid "If this and Footer Column 1 are set, your footer will be 2 columns."
+msgstr ""
+
+#: inc/hooks.php:124
+msgid "Footer Column 3"
+msgstr ""
+
+#: inc/hooks.php:125
+msgid ""
+"If this Footer Column 1 and Footer Column 2 are set, your footer will be 3 "
+"columns."
+msgstr ""
+
+#: inc/hooks.php:135
+msgid "Footer Column 4"
+msgstr ""
+
+#: inc/hooks.php:136
+msgid ""
+"If this Footer Column 1, Footer Column 2 and Footer Column 3 are set, your "
+"footer will be 4 columns."
+msgstr ""
+
+#: inc/hooks.php:319
+msgid "Insert your Contact Form 7 shortcode. You can create one in "
+msgstr ""
+
+#: inc/hooks.php:321
+msgid ""
+"<strong>It seems Contact Form 7 plugin is not installed!</strong> Please "
+"install and activate it to use this field."
+msgstr ""
+
+#: inc/hooks.php:790 inc/hooks.php:812
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/hooks.php:791 inc/hooks.php:813
+msgid "Cart"
+msgstr ""
+
+#: inc/hooks.php:864 inc/hooks.php:872
+msgid "Profile"
+msgstr ""
+
+#: inc/hooks.php:866
+msgid "Login / Signup"
+msgstr ""
+
+#: inc/hooks.php:868
+msgid "Log In"
+msgstr ""
+
+#: inc/hooks.php:873
+msgid "Log Out"
+msgstr ""
+
+#: inc/hooks.php:968
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: inc/hooks.php:970 woocommerce/myaccount/form-login.php:52
+#: woocommerce/myaccount/form-login.php:104
+msgid "Password"
+msgstr ""
+
+#: inc/hooks.php:970
+msgid "Enter"
+msgstr ""
+
+#: inc/hooks.php:1020
+msgid "Welcome to Odrin!"
+msgstr ""
+
+#: inc/hooks.php:1021
+msgid ""
+"Thank you for installing Odrin. To get to know the theme better, you can "
+"find its documentation in the zip package that you downloaded and also "
+"online - "
+msgstr ""
+
+#: inc/hooks.php:1021
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/hooks.php:1048
+msgid "Odrin Update 1.2.6"
+msgstr ""
+
+#: inc/hooks.php:1049
+msgid ""
+"- IMPORTANT: With the latest update all widgets have been moved to the Odrin "
+"Functionalities plugin, which is part of the theme - please install and "
+"activate it."
+msgstr ""
+
+#: inc/hooks.php:1050
+msgid ""
+"- Updated: Events Widget for the Sidebar - show upcoming and past events."
+msgstr ""
+
+#: inc/hooks.php:1051
+msgid "- Updated: WooCommerce Templates."
+msgstr ""
+
+#: inc/hooks.php:1052
+msgid "- Added: ACF fields are now shown in the Admin Panel."
+msgstr ""
+
+#: inc/hooks.php:1053
+msgid "- Fixed: Styling issues."
+msgstr ""
+
+#: inc/hooks.php:1054
+msgid "You can check the full changelog of all updates at the bottom of the "
+msgstr ""
+
+#: inc/hooks.php:1054
+msgid "ThemeForest Theme Page"
+msgstr ""
+
+#: inc/hooks.php:1127
+msgid "Google API Key Error!"
+msgstr ""
+
+#: inc/hooks.php:1129
+msgid "Please see here for more information - "
+msgstr ""
+
+#: inc/hooks.php:1129
+msgid "Google API FAQ"
+msgstr ""
+
+#: inc/hooks.php:1131
+msgid "Dismiss"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:6
+msgid "Page"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:13
+msgid "Remove the spacing added on the left and right of the page content."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:21
+msgid "Enable"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:29
+#: inc/includes/acf-fields/acf-fields.php:40
+msgid "Hide Title"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:32
+msgid "Hide the Page Title"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:74
+msgid "Product Category"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:78
+msgid "Header Image"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:102
+#: inc/includes/acf-fields/acf-fields.php:623
+#: inc/includes/acf-fields/acf-fields.php:802
+msgid "Header Text Color"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:149
+msgid "Single Event"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:153
+msgid "Event Date"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:170
+msgid "Event End Date"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:173
+msgid "Leave empty, if it is a one day event."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:187
+msgid "Event Image"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:211
+msgid "Event Location"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:214
+msgid "Enter the location of the event"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:230
+msgid "Event Location URL"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:233
+msgid "Enter the website of the location/venue/event if there is any."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:246
+msgid "Event Map Location"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:249
+msgid "Add a map to the event with the exact spot of the location."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:264
+#: partials/content-single-event-header.php:95
+msgid "Additional Information"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:267
+msgid "Add fields with additional information about the event."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:279
+msgid "Add Field"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:283
+msgid "Label"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:302
+msgid "Text"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:321
+msgid "Text URL"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:324
+msgid "Add URL for the text."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:360
+msgid "Template - Contact"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:383
+msgid "Contact Form 7 Shortcode"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:402
+msgid "Show Map"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:413
+msgid "Show Google Map"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:421
+msgid "Location"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:447
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:450
+msgid "Enter map zoom level from 1 to 20."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:476
+msgid "Marker"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:479
+msgid "Upload custom marker image."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:529
+msgid "Template Blog"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:533
+msgid "Header Subtitle"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:536
+msgid "Subtitle below the Title."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:552
+msgid "Show Search Field"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:555
+msgid "Show the Search Field in the header."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:574
+#: inc/includes/acf-fields/acf-fields.php:738
+msgid "Background Image for the Header."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:595
+#: inc/includes/acf-fields/acf-fields.php:767
+msgid "Header Color Overlay"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:598
+msgid "Apply a color overlay over the image."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:626
+#: inc/includes/acf-fields/acf-fields.php:805
+msgid "Select the color of the text in the header - light or dark"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:635
+#: inc/includes/acf-fields/acf-fields.php:822
+msgid "Light Text"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:636
+#: inc/includes/acf-fields/acf-fields.php:823
+msgid "Dark Text"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:671
+msgid "Template Events"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:675
+msgid "Header Style"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:678
+msgid ""
+"Select the type of the page header - display the Page Title, Featured Event "
+"or create a Custom Header."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:688
+#: inc/includes/acf-fields/acf-fields.php:704
+#: partials/content-events-header.php:83
+msgid "Featured Event"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:689
+msgid "Custom Header"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:690
+msgid "No Header"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:707
+msgid "Select a Featured Event"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:770
+msgid "Apply a color overlay over the image"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:837
+msgid "Show Date Filter"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:840
+msgid "Display the date filter for events."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:856
+msgid "Show Category Filter"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:859
+msgid "Display the category filter for events."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:875
+msgid "Filter Text"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:878
+msgid "The text for the filter."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:914
+msgid "Hide Categories"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:915
+msgid "Show Categories"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:929
+msgid ""
+"Select the categories that you want show/hide from the current events page."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:945
+#: partials/content-events-categories-filter.php:82
+#: woocommerce/single-product/product-attributes.php:72
+msgid "Category"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:972
+msgid "Select the number of columns for the Events - 1 to 3."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:990
+msgid "Events Per Page"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:993
+msgid ""
+"How many events to be displayed in a page. Leave blank if you want all "
+"events in one page."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1014
+msgid "Display events that already ended."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1030
+msgid "Past Events Number"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1033
+msgid ""
+"How many past events to be displayed. Leave blank if you want all past "
+"events to be shown."
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1070
+msgid "Show Year"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1103
+msgid "\"Read the Book\" Text"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1122
+msgid "Remove \"Thumbnail 3D Effect\""
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1141
+msgid "Product short description - Sidebar"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1160
+msgid "\"Read the Book\" Chapters"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1175
+msgid "Add Chapter"
+msgstr ""
+
+#: inc/includes/acf-fields/acf-fields.php:1198
+msgid "Chapter"
+msgstr ""
+
+#: inc/includes/acf-fonticonpicker/fonticonpicker-v5.php:25
+msgid "Icon Picker"
+msgstr ""
+
+#: inc/includes/acf-fonticonpicker/fonticonpicker-v5.php:26
+msgid "jQuery"
+msgstr ""
+
+#: inc/includes/acf-fonticonpicker/fonticonpicker-v5.php:60
+#: inc/includes/option-types/icon-select/class-fw-option-type-icon-select.php:92
+msgid "Error when reading file"
+msgstr ""
+
+#: inc/includes/acf-fonticonpicker/fonticonpicker-v5.php:92
+msgid "No icons found"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:4
+msgid "About Me"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:7
+msgid "Contact Me"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:8
+msgid "Home 1"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:9
+msgid "How I Write"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:10
+msgid "My Books"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:11
+msgid "Shop No Sidebar"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:12
+msgid "Two Books"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:13
+msgid "Who am I"
+msgstr ""
+
+#: inc/includes/builder-templates/full.php:14
+msgid "Workshop"
+msgstr ""
+
+#: inc/includes/option-types/icon-select/class-fw-option-type-icon-select.php:98
+msgid "Error: JSON file not found"
+msgstr ""
+
+#: inc/includes/subsolar-widget-fields/subsolar-widget-fields.php:62
+msgid "Remove Image"
+msgstr ""
+
+#: inc/includes/subsolar-widget-fields/subsolar-widget-fields.php:70
+#: inc/includes/subsolar-widget-fields/subsolar-widget-fields.php:82
+msgid "Select..."
+msgstr ""
+
+#: inc/menus.php:7
+msgid "Main Navigation Left"
+msgstr ""
+
+#: inc/menus.php:8
+msgid "Main Navigation Right"
+msgstr ""
+
+#: inc/static-admin.php:40
+msgid "Appearance > Theme Settings > General"
+msgstr ""
+
+#: inc/static-admin.php:43
+#, php-format
+msgid ""
+"Please enter your Google Maps API Key in the <strong>Google API Key</strong> "
+"field in %s. If the problem still persists, see the JavaScript console of "
+"your browser for technical details."
+msgstr ""
+
+#: inc/static.php:269
+msgid "Month"
+msgstr ""
+
+#: inc/static.php:270
+msgid "Months"
+msgstr ""
+
+#: inc/static.php:271
+msgid "Day"
+msgstr ""
+
+#: inc/static.php:272
+msgid "Days"
+msgstr ""
+
+#: inc/static.php:274
+msgid "Hide Chapters"
+msgstr ""
+
+#: inc/static.php:275
+msgid "Loading"
+msgstr ""
+
+#: loop/loop-events.php:321
+msgid "There are no upcoming events!"
+msgstr ""
+
+#: partials/content-events-categories-filter.php:88
+msgid "All Categories"
+msgstr ""
+
+#: partials/content-events-date-filter.php:106
+msgid "Date"
+msgstr ""
+
+#: partials/content-events-date-filter.php:113
+msgid "All Dates"
+msgstr ""
+
+#: partials/content-events-date-filter.php:117
+msgid "Upcoming"
+msgstr ""
+
+#: partials/content-events-header.php:107
+msgid "View Event"
+msgstr ""
+
+#: search.php:18 search.php:27
+msgid "Search Results for: "
+msgstr ""
+
+#: searchform.php:5
+msgid "Search..."
+msgstr ""
+
+#: single-event.php:25 single.php:31
+msgid "Pages:"
+msgstr ""
+
+#: single-event.php:37
+msgid "Share:"
+msgstr ""
+
+#: single-event.php:39
+msgid "Share on Facebook"
+msgstr ""
+
+#: single-event.php:40
+msgid "Share on Twitter"
+msgstr ""
+
+#: single-event.php:41
+msgid "Share on Pinterest"
+msgstr ""
+
+#: single-event.php:49
+msgid "Back To All Events"
+msgstr ""
+
+#: single-event.php:53
+msgid ""
+"<strong>Note!</strong> Make sure than you have published one (and only one) "
+"page that uses the Page Template \"Events\"."
+msgstr ""
+
+#: single.php:43
+msgid "Tags:"
+msgstr ""
+
+#: single.php:71
+msgid "Next Post"
+msgstr ""
+
+#: single.php:92
+msgid "Previous Post"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:29
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:35 woocommerce/cart/cart-totals.php:36
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:57 woocommerce/cart/cart-totals.php:58
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:73
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:94 woocommerce/cart/cart-totals.php:95
+#: woocommerce/order/order-details.php:45
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:28
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:34
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:63
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:64
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:28
+msgid "Out of Stock!"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:32
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:40
+#: woocommerce/myaccount/form-login.php:60
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:48
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:62
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:66
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:80
+#: woocommerce/myaccount/form-login.php:114
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:90
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:97
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/order/order-details.php:38
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:80
+msgid "Note:"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:35
+#, php-format
+msgid "%1$s Review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:104
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:113
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:34
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:50
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:30
+msgid "Category: "
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "Tags: "
+msgstr ""
+
+#: woocommerce/single-product/meta.php:42
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:43
+#: woocommerce/single-product/product-attributes.php:84
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:77
+msgid "Tags"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:83
+msgid "SKU"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:71
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/related.php:30
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:30
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:40
+msgid "verified owner"
+msgstr ""
+
+#. translators: %s: rating
+#: woocommerce/single-product/review-rating.php:31
+#, php-format
+msgid "%s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:30
+msgid "You may also like&hellip;"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Odrin"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://subsolardesigns.com/odrin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Book Selling WordPress Theme for Writers and Authors"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Subsolar Designs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://subsolardesigns.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contact */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Events */"
+msgstr ""

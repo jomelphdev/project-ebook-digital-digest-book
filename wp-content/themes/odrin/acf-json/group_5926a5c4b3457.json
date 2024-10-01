@@ -1,0 +1,426 @@
+{
+    "key": "group_5926a5c4b3457",
+    "title": "Template Events",
+    "fields": [
+        {
+            "key": "field_59282590fffe4",
+            "label": "Header Style",
+            "name": "header_style",
+            "type": "select",
+            "instructions": "Select the type of the page header - display the Page Title, Featured Event or create a Custom Header.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "title": "Title",
+                "featured_event": "Featured Event",
+                "custom_header": "Custom Header",
+                "no_header": "No Header"
+            },
+            "default_value": [
+                "title"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5928278efffe7",
+            "label": "Featured Event",
+            "name": "featured_event",
+            "type": "post_object",
+            "instructions": "Select a Featured Event",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59282590fffe4",
+                        "operator": "==",
+                        "value": "featured_event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "event"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
+            "key": "field_592c141bb717f",
+            "label": "Background Image",
+            "name": "background_image",
+            "type": "image",
+            "instructions": "Background Image for the Header.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59282590fffe4",
+                        "operator": "==",
+                        "value": "custom_header"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_592c1441b7180",
+            "label": "Header Color Overlay",
+            "name": "header_color_overlay",
+            "type": "select",
+            "instructions": "Apply a color overlay over the image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59282590fffe4",
+                        "operator": "==",
+                        "value": "custom_header"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "light": "Light",
+                "dark": "Dark"
+            },
+            "default_value": [
+                "dark"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592c255aba7fb",
+            "label": "Header Text Color",
+            "name": "header_text_color",
+            "type": "select",
+            "instructions": "Select the color of the text in the header - light or dark",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59282590fffe4",
+                        "operator": "==",
+                        "value": "custom_header"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "light": "Light Text",
+                "dark": "Dark Text"
+            },
+            "default_value": [
+                "light"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5926a5d90831e",
+            "label": "Show Date Filter",
+            "name": "show_filter",
+            "type": "true_false",
+            "instructions": "Display the date filter for events.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "message": "Show",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5b2a06b5b95b7",
+            "label": "Show Category Filter",
+            "name": "show_category_filter",
+            "type": "true_false",
+            "instructions": "Display the category filter for events.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "message": "Show",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5926cb5ec00cd",
+            "label": "Filter Text",
+            "name": "filter_text",
+            "type": "text",
+            "instructions": "The text for the filter.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5926a5d90831e",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Filter Events:",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5b1fb79e9b0e3",
+            "label": "Hide or Show Categories",
+            "name": "hide_show_categories",
+            "type": "radio",
+            "instructions": "Select to Hide or Show the selected Specific Categories.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.333",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "hide": "Hide Categories",
+                "show": "Show Categories"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "hide",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5adc52903161d",
+            "label": "Specific Categories",
+            "name": "hide_categories",
+            "type": "repeater",
+            "instructions": "Select the categories that you want show\/hide from the current events page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "66.666",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5adc52a33161e",
+                    "label": "Category",
+                    "name": "category",
+                    "type": "taxonomy",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "taxonomy": "event_category",
+                    "field_type": "select",
+                    "allow_null": 0,
+                    "add_term": 1,
+                    "save_terms": 0,
+                    "load_terms": 0,
+                    "return_format": "object",
+                    "multiple": 0
+                }
+            ]
+        },
+        {
+            "key": "field_5b1fb7399b0e2",
+            "label": "Number of Columns",
+            "name": "number_of_columns",
+            "type": "number",
+            "instructions": "Select the number of columns for the Events - 1 to 3.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 2,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 1,
+            "max": 3,
+            "step": 1
+        },
+        {
+            "key": "field_5926ba710fab6",
+            "label": "Events Per Page",
+            "name": "events_per_page",
+            "type": "number",
+            "instructions": "How many events to be displayed in a page. Leave blank if you want all events in one page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50.333",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5add9f37cac44",
+            "label": "Show Past Events",
+            "name": "show_past_events",
+            "type": "true_false",
+            "instructions": "Display events that already ended.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "Show",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5bd08b5b35dfc",
+            "label": "Past Events Number",
+            "name": "past_events_number",
+            "type": "number",
+            "instructions": "How many past events to be displayed. Leave blank if you want all past events to be shown.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5add9f37cac44",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 4,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5b1fb8369b0e4",
+            "label": "Display Events Year",
+            "name": "display_events_year",
+            "type": "true_false",
+            "instructions": "Show the events year next to the day and month",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Show Year",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-events.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1540394133
+}

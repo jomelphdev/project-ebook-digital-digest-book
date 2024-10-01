@@ -1,0 +1,143 @@
+.ContentElement {
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 60px;
+	margin-right: 3%;
+	box-shadow: 15px 15px 0px 0px $colorSecondary;
+	vertical-align: top;
+
+	.c-element-content-wrapper {
+		padding: 40px;
+		height: 100%;
+		transition: .2s;
+		background-color: #fff;
+		box-shadow: -1px -1px 15px -8px rgba(0, 0, 0, 0.2);
+
+		.c-element-content {
+			text-align: right;
+		}
+
+		.overlay-dark {
+			transition: .2s;
+		}
+	}
+
+	.c-element-date-wrapper {
+		text-align: left;
+		margin-bottom: 60px;
+
+		.c-element-date-number {
+			font-size: 100px;
+			line-height: 1em;
+		}
+		.c-element-delimeter {
+			font-size: 70px;
+			margin: 0 5px;
+			color: $colorSecondary;
+		}
+		.c-element-date-month {
+			position: relative;
+			font-size: 17px;
+			font-weight: 700;
+			letter-spacing: 0.05em;
+		}
+		.c-element-date-time {
+			font-size: 22px;
+			font-weight: 700;
+		}
+		.c-element-time-delimeter {
+			font-size: 30px;
+			font-weight: 700;
+			margin: 0 5px;
+			color: $colorSecondary;
+		}
+
+		.with-delimeter {
+			margin-left: 35px;
+
+			&:before {
+				position: absolute;
+				content: '';
+				bottom: -15px;
+				left: -10px;
+				width: 3px;
+				height: 100px;
+				background-color: $colorSecondary;
+				transform: rotate(30deg);
+			}
+		}
+
+		.c-element-date-year {
+			font-weight: 700;
+			font-size: 13px;
+			letter-spacing: 0.05em;
+			margin-left: -3px;
+		}
+	}
+
+	&:hover {
+		.c-element-content-wrapper {
+			transform: translateX(5px) translateY(5px);
+		}
+		.overlay-dark {
+			background: rgba(0,0,0,0.45);
+		}
+	}
+}
+
+.EventsWrapper {
+	.c-element-divider {
+		margin-top: -20px;
+	}
+}
+.c-element-divider {
+	position: relative;
+	display: flex;
+	margin-bottom: 30px;
+	
+	.c-element-line {
+		position: relative;
+		flex: 1;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 0;
+			right: 0;
+			height: 2px;
+			background: #cbcbcb;
+		}
+	}
+	.c-element-divider-text {
+		padding: 0 15px;
+		font-size: 20px;
+		font-weight: 700;
+		letter-spacing: .2em;
+		text-transform: uppercase;
+		color: $colorTextMedium;
+	}
+}
+
+.c-elements-cols-1 {
+	.ContentElement {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+.c-elements-cols-2 {
+	.ContentElement:nth-child(2n) {
+		margin-right: 0;
+	}
+}
+
+.c-elements-cols-3 {
+	.ContentElement:nth-child(3n) {
+		margin-right: 0;
+	}
+}
+
+.c-element-show-more {
+	border-bottom: 1px dotted $colorMain;
+}

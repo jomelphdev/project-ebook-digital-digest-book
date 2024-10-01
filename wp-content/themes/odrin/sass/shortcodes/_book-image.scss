@@ -1,0 +1,43 @@
+.BookImage {
+	position: relative;
+	@extend %clearfix;
+
+	.book-image-wrapper {
+		position: relative;
+		display: inline-block;
+	}
+}
+
+.BookImageBackground {
+	position: absolute;
+	opacity: .65;
+	z-index: -1;
+
+	&.book-bg-type-1 {
+		top: 10%;
+		left: -40%;
+		right: -20%;
+		bottom: 45%;
+	}
+
+	&.book-bg-type-2 {
+		top: 10%;
+		left: 0%;
+		right: -20%;
+		bottom: 14%;
+	}
+
+	&.book-bg-type-3 {
+		top: 10%;
+		left: -20%;
+		right: -40%;
+		bottom: 45%;
+	}
+
+	&.book-bg-type-4 {
+		top: 10%;
+		left: -25%;
+		right: 0;
+		bottom: 14%;
+	}
+}

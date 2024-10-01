@@ -1,0 +1,85 @@
+/**
+* ----------------------------------------------------------------------------------------
+* Custom edits of the Unyson frontend CSS
+* ----------------------------------------------------------------------------------------
+*/
+
+.fw-container-full {
+	position: relative;
+    margin-right: auto;
+    margin-left: auto;
+	padding-left: 0;
+	padding-right: 0;
+	z-index: 1;
+
+	&:before, &:after {
+		content: " ";
+		display: table;	
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+.fw-container {
+	padding-left: $bootstrapSpacing;
+	padding-right: $bootstrapSpacing;
+	z-index: 1;
+}
+
+@media (min-width: 768px) {
+	.fw-container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.fw-container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.fw-container {
+		width: 1170px;
+	}
+}
+@media (min-width: 1500px) {
+	.fw-container {
+		width: 1370px;
+	}
+}
+
+
+.fw-main-row {
+	@extend %clearfix;
+}
+
+.fw-row {
+	@extend %clearfix;
+	margin-left: - $bootstrapSpacing;
+	margin-right: - $bootstrapSpacing;
+}
+
+.is-container-centered-items {
+	// .fw-row {
+	// 	@extend .el-centered;
+	// }
+}
+
+.form-wrapper.contact-form {
+	margin-bottom: 20px;
+}
+
+[class^="fw-col-"], [class*=" fw-col-"] {
+	padding-left:  $bootstrapSpacing;
+	padding-right:  $bootstrapSpacing;
+}
+
+.cols-np {
+	margin: 0;
+
+	& > [class^="fw-col-"], & > [class*=" fw-col-"] {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

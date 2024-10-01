@@ -1,0 +1,42 @@
+.ShortcodeBlog {
+	.SimplifiedPosts {
+		@extend %clearfix;
+		
+		.simplified-post-wrapper {
+			float: left;
+		}
+		.simplified-post-read-more {
+			font-size: 18px;
+			letter-spacing: 0.5em;
+			transition: .3s;
+		}
+	}
+
+	.blog-show-more {
+		border-bottom: 1px dotted $colorMain;
+	}
+	.SimplifiedPosts.posts-cols-1 {
+		.simplified-post-wrapper {
+			width: 100%;
+			margin-right: 0;
+		}
+	}
+	.SimplifiedPosts.posts-cols-2 {
+		.simplified-post-wrapper {
+			width: 48.5%;
+			margin-right: 3%;
+		}
+		.simplified-post-wrapper:nth-child(2n) {
+			margin-right: 0;
+		}
+	}
+	.SimplifiedPosts.posts-cols-3 {
+		.simplified-post-wrapper {
+			width: 31.333%;
+			margin-right: 3%;
+		}
+		.simplified-post-wrapper:nth-child(3n) {
+			margin-right: 0;
+		}
+	}
+}

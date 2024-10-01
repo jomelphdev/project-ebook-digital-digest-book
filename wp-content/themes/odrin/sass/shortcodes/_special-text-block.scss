@@ -1,0 +1,75 @@
+/**
+* ----------------------------------------------------------------------------------------
+*    Special Text Block
+* ----------------------------------------------------------------------------------------
+*/
+.TextBlock {
+	overflow: hidden;
+	clear: both;
+}
+.SpecialTextBlock {
+	margin-bottom: 40px;
+	padding-top: 130px;
+
+	&.special-text-block-has-image {
+		.SpecialHeading {
+			max-width: 57%;
+		}
+
+		.special-text-block-content {
+			// width: auto;
+		}
+	}
+	
+	.SpecialHeading {
+		// position: absolute;
+		position: relative;
+		padding-left: 150px;
+
+		&:before {
+			position: absolute;
+			content: '';
+			top: 55px;
+			left: 80px;
+			height: 2px;
+			width: 45px;
+			background-color: $colorText;
+		}
+		
+	}
+	.special-text-block-image {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 600px;
+		width: 42%;
+
+		&:after {
+			position: absolute;
+			content: '';
+			bottom: -15px;
+			left: 35%;
+			height: 2px;
+			width: 30%;
+			background-color: $colorText;
+		}
+	}
+	.special-text-block-content {
+		position: relative;
+		width: 65%;
+		font-style: italic;
+		font-size: 19px;
+		line-height: 1.66em;
+		letter-spacing: 0.02em;
+		padding: 60px 80px;
+		background-color: $colorBgBody;
+		z-index: 1;
+	}
+}
+
+.special-text-block-color {
+	.special-text-block-content {
+		background-color: $colorSecondary;
+		color: $colorTextWhite;
+	}
+}

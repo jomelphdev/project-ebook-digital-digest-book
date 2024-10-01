@@ -1,0 +1,1356 @@
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Media Queries
+ * ----------------------------------------------------------------------------------------
+ */
+
+@media only screen and (min-width: 1500px) {
+	.main-navigation-menu {
+		a {
+			padding: 40px 25px;
+		}
+	}
+}
+@media only screen and (min-width: 1199px) {
+	.c-elements-cols-3 {
+		.ContentElement {
+			width: 30.8%;
+
+			.c-element-content-wrapper {
+				padding: 30px;
+			}
+			.c-element-date-wrapper {
+				.c-element-date-number {
+					font-size: 80px;
+				}
+				.with-delimeter {
+					&:before {
+						bottom: -10px;
+						left: -15px;
+						height: 80px;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1499px) { 
+
+	// Special Text Block
+	.SpecialTextBlock {
+		padding-top: 100px;
+	}
+	.SpecialTextBlock .SpecialHeading {
+		max-width: 55%;
+		padding-left: 130px;
+
+		&:before {
+			left: 60px;
+		}
+	}
+
+	// Book Image
+	.BookImage {
+		text-align: center;
+	}
+	.BookImageBackground {
+
+		&.book-bg-type-1 {
+			left: -30%;
+			right: -10%;
+		}
+
+		&.book-bg-type-2 {
+			left: -15%;
+			right: -5%;
+		}
+
+		&.book-bg-type-3 {
+			left: -10%;
+			right: -30%;
+		}
+
+		&.book-bg-type-4 {
+			left: -10%;
+			right: -15%;
+		}
+	}
+
+	// Events
+	.FeaturedEvent {
+		.featured-event-meta-wrapper {
+			width: 35%;
+
+			.featured-event-range-date .featured-event-date-time {
+				padding: 0 2px;
+			}
+		}
+		.featured-event-content {
+			left: 35%;
+			width: 65%;
+			padding: 180px 60px 60px;
+		}
+	}
+
+	// Single Event
+	.SingleEventMetaHeader .information-wrapper {
+		width: 80%;
+	}
+
+}
+@media only screen and (min-width: 1199px) and (max-width: 1499px) {
+	.main-navigation-menu.navigation-left {
+		padding-left: 5px;
+	}
+	.main-navigation-menu.navigation-right {
+		padding-right: 5px;
+	}
+	.navigation-left > ul > li {
+		margin-left: 10px;
+	}
+	.double-navigation .navigation-left > ul > li:first-child {
+		margin-left: 0;
+	}
+	.navigation-right > ul > li {
+		margin-right: 10px;
+	}
+	.double-navigation .navigation-right > ul > li:last-child {
+		margin-right: 0;
+	}
+	.main-navigation-menu a {
+		padding: 40px 15px;
+	}
+
+	// Special Heading
+	.SpecialHeading {
+		h1.special-title {
+			font-size: 56px;
+		}
+	}
+
+	// Upcoming Book
+	.UpcomingBookWrapper {
+		.upcoming-book-content {
+			padding: 50px 80px 70px;
+		}
+		.upcoming-product-image + .upcoming-book-content {
+			padding: 50px 60px 70px 100px;
+		}
+
+		.upcoming-book-release-date {
+			.countdown-item {
+				.countdown-number {
+					font-size: 68px;
+					line-height: .8em;
+				}
+				.countdown-text {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+
+	.c-elements-cols-3 .ContentElement .c-element-content-wrapper {
+		padding: 35px;
+	}
+
+	// Simplified Posts
+	.SimplifiedPosts .simplified-post-meta {
+		padding: 20px 0;
+	}
+	.SimplifiedPosts .simplified-post-meta .ElementHeading .element-title {
+		padding: 0 15px;
+	}
+
+	// Books Panel
+	.BooksPanel .books-panel-info {
+		padding-left: 60px;
+	}
+	.book-panel-info-title {
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	// Special Heading
+	.SpecialHeading {
+		h1.special-title {
+			font-size: 46px;
+		}
+		h1.special-heading-letter {
+			&:first-letter {
+				padding: 5px 30px;
+			}
+		}
+		h2.special-title {
+			font-size: 42px;
+		}
+		h3.special-title {
+			font-size: 38px;
+		}
+		h4.special-title {
+			font-size: 36px;
+		}
+		h5.special-title {
+			font-size: 33px;
+		}
+		h5.special-heading-letter, h6.special-heading-letter {
+			&:first-letter {
+				padding: 5px 25px;
+			}
+		}
+	}
+
+	// Widgets
+	.shortcode-widget-area {
+		padding: 0 20px;
+	}
+	.widget .dash-left {
+		margin-left: 15px;
+	}
+	.widget .widget-title {
+	    font-size: 17px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	// Widgets
+	.widget .MailchimpNewsletter .btn-icon {
+		&, &:focus {
+			position: relative;
+			display: block;
+			margin-top: 10px;
+			max-width: 100%;
+			width: 100%;
+		}
+	}
+	// ContentElement
+	.c-elements-cols-3 .ContentElement {
+		.c-element-title {
+			font-size: 22px;
+		}
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+	// Base
+	body {
+		font-size: $fontsize - 1;
+	}
+
+	h1 {
+		font-size: 44px;
+	}
+
+	h2 {
+		font-size: 38px;
+	}
+
+	h3 {
+		font-size: 26px;
+	}
+
+	h4 {
+		font-size: 23px;
+	}
+
+	h5 {
+		font-size: 18px;
+	}
+
+	h6 {
+		font-size: 16px;
+	}
+
+	// Special Text Block
+	.SpecialTextBlock {
+		padding-top: 100px;
+	}
+	.SpecialTextBlock .SpecialHeading {
+		padding-left: 100px;
+
+		&:before {
+			left: 30px;
+		}
+	}
+	.SpecialTextBlock .special-text-block-content {
+		width: 70%;
+		padding: 50px 60px;
+	}
+
+	// Content Slider
+	.ContentSliderWrapper .content-slider {
+		.content-slider-content-wrapper {
+			padding: 70px 50px 40px 80px;
+		}
+		.content-slider-content {
+			padding: 30px 4% 0 11%;
+		}
+	}
+
+	// Upcoming Book
+	.UpcomingBookWrapper {
+		.upcoming-book-content {
+			padding: 40px 55px 30px;
+		}
+		.upcoming-product-image + .upcoming-book-content {
+			padding: 40px 50px 40px 70px;
+		}
+		.upcoming-book-release-date {
+			.countdown-item {
+				padding: 0 10px;
+
+				.countdown-number {
+					font-size: 62px;
+					line-height: .8em;
+				}
+				.countdown-text {
+					font-size: 13px;
+				}
+			}
+		}
+	}
+
+	// Simplified Posts
+	.simplified-post-text.special-link {
+		letter-spacing: .5em;
+		font-size: 18px;
+	}
+
+	.c-elements-cols-3 .ContentElement {
+		width: 31%;
+
+		.c-element-date-wrapper {
+			.c-element-delimeter {
+				font-size: 60px;
+				margin: 0;
+			}
+			.c-element-date-number {
+				font-size: 64px;
+			}
+			.with-delimeter {
+				margin-left: 25px;
+				&:before {
+					left: -14px;
+					height: 70px;
+				}
+			}
+		} 
+		.c-element-content-wrapper {
+			padding: 25px;
+		}
+	}
+
+	// Single Event
+	.SingleEventDate .single-event-date-number {
+		font-size: 60px;
+		line-height: 1.1em;
+	}
+
+	// Page Header
+	.BlogHeader .ContentTitle {
+		max-width: 65%;
+	}
+
+	// Blog
+	.Excerpt .ExcerptContentWrapper {
+		padding: 50px 30px;
+	}
+	.Excerpt .ExcerptContentWrapper .excerpt-content {
+		padding: 20px 60px;
+	}
+
+	// Single Post
+	.SinglePostFooter {
+		left: 15%;
+		width: 70%;
+	}
+
+
+	// Widgets
+	.widget .dash-left {
+		margin-left: 45px;
+
+		&:before {
+			width: 35px;
+		}
+	}
+
+
+
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 991px) {
+
+	// Base
+	body {
+		font-size: $fontsize - 1;
+	}
+	h1 {
+		font-size: 44px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+
+	h3 {
+		font-size: 26px;
+	}
+
+	h4 {
+		font-size: 22px;
+	}
+
+	h5 {
+		font-size: 18px;
+	}
+
+	h6 {
+		font-size: 16px;
+	}
+
+	blockquote p {
+		font-size: 20px;
+	}
+
+	.ElementHeading .element-title {
+		padding: 0 20px;
+	}
+
+	// Special Text Block
+	.SpecialTextBlock {
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+	.SpecialTextBlock .SpecialHeading {
+		position: relative;
+		max-width: none;
+		padding-left: 60px;
+		margin-bottom: 60px;
+
+		&:before {
+			left: 5px;
+		}
+	}
+	.SpecialTextBlock .special-text-block-image {
+		position: relative;
+		width: 100%;
+	}
+	.SpecialTextBlock .special-text-block-content {
+		width: 80%;
+		margin: -15% auto 0;
+		padding: 50px 60px;
+	}
+
+	// Books Panel
+	.BooksPanel .books-panel-container,
+	.BooksPanel .books-panel-info {
+		float: none;
+		width: auto;
+		padding: 0;
+	}
+
+	// Book Image
+	.BookImage {
+		text-align: center;
+	}
+	.BookImageBackground {
+		bottom: 10% !important;
+
+		&.book-bg-type-1, &.book-bg-type-2, &.book-bg-type-3, &.book-bg-type-4 {
+			left: -5%;
+			right: -5%;
+		}
+	}
+
+	// Content Slider
+	.ContentSliderWrapper .content-slider-images {
+		position: relative;
+		width: 100%;
+		height: 350px;
+
+	}
+	.ContentSliderWrapper .content-slider {
+		left: 0;
+		width: 100%;
+
+		.content-slider-content-wrapper {
+			padding: 80px 70px 50px;
+		}
+		.owl-prev, .owl-next {
+			top: 52%;
+		}
+		.owl-prev {
+			left: 25px;
+		}
+		.owl-next {
+			right: 10px;
+		}
+	}
+
+	// Upcoming Book
+	.UpcomingBookWrapper {
+		.upcoming-book-image, .upcoming-book-image.upcoming-product-image {
+			display: block;
+			float: none;
+			width: 60%;
+			margin: 0 auto;
+		}
+	}
+	.UpcomingBookWrapper {
+		.upcoming-book-content, .upcoming-product-image + .upcoming-book-content {
+			float: none;
+			width: 100%;
+			margin: 0;
+			padding: 50px 40px 40px;
+		}
+	}
+
+	// Testimonials
+	.TestimonialCarousel {
+		padding: 30px 0;
+	}
+	.Testimonial .testimonial-text-wrapper .testimonial-text {
+		font-size: 21px;
+	}
+
+	// Special Text Block
+	.SpecialTextBlock.special-text-block-has-image .SpecialHeading {
+		max-width: none;
+	}
+	.SpecialTextBlock .special-text-block-content {
+		width: 100%;
+		margin-top: 0;
+		padding: 30px;
+	}
+
+	// Tabs
+	.fw-tabs-container.tabs-justified .fw-tabs ul li {
+		a {
+			padding: 20px 15px 15px;
+		}
+		.tabs-icon {
+			display: block;
+			margin: 0 0 10px 0;
+		}
+	}
+	.fw-tabs-container.tabs-vertical {
+		.fw-tabs ul li {
+			a {
+				padding: 20px 25px 20px;
+			}
+			.tabs-icon {
+				display: block;
+				margin: 0 0 10px 0;
+			}
+		}	
+		.fw-tab-content {
+			padding: 30px;
+		}
+	} 
+
+	// Simplified Posts
+	.SimplifiedPosts.mb-100 {
+		margin-bottom: 40px;
+	}
+	.SimplifiedPosts .simplified-post-meta .simplified-post-date {
+		padding: 10px 15px;
+	}
+	.simplified-post-text.special-link {
+		letter-spacing: .4em;
+		font-size: 18px;
+	}
+
+	// Events
+	.EventsFilter .events-filter-dropdown {
+		display: inline-block;
+	}
+	.EventsHeader .ContentTitle {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.FeaturedEvent {
+		width: 100%;
+
+		.featured-event-meta-wrapper {
+			width: 30%;
+
+			.featured-event-label, .featured-event-date-month, .featured-event-date-time {
+				margin-bottom: 25px;
+			}
+		}
+		.featured-event-content {
+			left: 30%;
+			width: 70%;
+			padding: 220px 60px 60px;
+		}
+	}
+
+	.ContentElement .c-element-content-wrapper {
+		padding: 30px;
+	}
+	.ContentElement .c-element-date-wrapper {
+		.c-element-date-number {
+			font-size: 75px;
+		}
+		.with-delimeter {
+			margin-left: 30px;
+
+			&:before {
+				bottom: -10px;
+				left: -11px;
+				height: 80px;
+			}
+		}
+	} 
+	.c-elements-cols-3 {
+		.ContentElement:nth-child(3n) {
+			margin-right: 3%;
+		}
+		.ContentElement:nth-child(2n) {
+			margin-right: 0;
+		}
+	}
+
+	// Single Events
+	.SingleEventDate {
+		padding: 20px 40px;
+	}
+	.SingleEventDate .single-event-date-number {
+		font-size: 52px;
+		line-height: 1.1em;
+	}
+	.SingleEventDate .single-event-date-time {
+		font-size: 18px;
+	}
+	.SingleEventMetaHeader .information-wrapper {
+		width: 85%;
+	}
+	.SingleEventMetaHeader .information-wrapper .information-items-wrapper {
+		padding-left: 40px;
+	}
+	.SingleEventMetaHeader .information-wrapper .information-item {
+		padding-left: 30px;
+	}
+
+	// Page Header
+	.PageHeader {
+		padding-top: 100px;
+		padding-bottom: 80px;
+	}
+
+	// Footer
+	.footer {
+		position: relative;
+		z-index: 1;
+	}
+	
+	// Widgets
+	.widget {
+		max-width: 60%;
+		margin: 0 auto 80px;
+	}
+	.widget .widget-title {
+		display: inline-block;
+	}
+	.widget_popular_posts .popular-posts-header {
+		position: absolute;
+		top: 50%;
+		bottom: auto;
+		transform: translateY(-50%);
+	}
+	.widget_popular_posts .popular-posts-meta-extra {
+		position: relative;
+		display: inline-block;
+	}
+	.widget select {
+		background-position: 97% 50%;
+	}
+}
+
+/* Smaller than standard (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+	// Base
+	body {
+		font-size: $fontsize - 2;
+	}
+	h1 {
+		font-size: 38px;
+	}
+	h2 {
+		font-size: 34px;
+	}
+	h3 {
+		font-size: 26px;
+	}
+	table {
+		th {
+			padding: 15px 20px;
+		}
+		td, td.label {
+			padding: 15px 20px;
+		}
+	}
+
+	// Special Heading
+	.SpecialHeading {
+		h1.special-title {
+			font-size: 40px;
+		}
+		h2.special-title {
+			font-size: 36px;
+		}
+		h3.special-title {
+			font-size: 32px;
+		}
+		h4.special-title {
+			font-size: 30px;
+		}
+		h5.special-title {
+			font-size: 26px;
+		}
+		h6.special-title {
+			font-size: 22px;
+		}
+	}
+	.SpecialHeading .special-title-small {
+		font-size: 28px;
+		line-height: 1.88em;
+
+		&.special-heading-letter {
+			&:first-letter {
+				font-size: 68px;
+				padding: 5px 25px;
+				margin-right: -25px;
+			}
+		}
+	}
+	.SpecialHeading .special-subtitle {
+		font-size: 10px;
+	}
+	.special-link {
+		letter-spacing: .5em;
+	}
+	.ElementHeading .element-title {
+		padding: 0 15px;
+	}
+
+	// Cart Box
+	.admin-bar .cart-contents-box {
+		top: 104px;
+	}
+	.cart-contents-box {
+		top: 57px;
+		padding: 10px 25px;
+	}
+	.cart-contents-box i {
+		font-size: 15px;
+		top: 2px;
+	}
+
+	// Books Panel
+	.BooksPanel .books-panel-item.col-sm-4:nth-child(3n+1) {
+		clear: none;
+	}
+	.BooksPanel .books-panel-item.col-sm-4:nth-child(2n+1) {
+		clear: left;
+	}
+	.BooksPanel .books-panel-item-wrap {
+		perspective: 1600px;
+	}
+
+	// Special Text Block
+	.SpecialTextBlock .SpecialHeading {
+		padding-left: 50px;
+
+		&:before {
+			left: 0px;
+			width: 35px;
+		}
+	}
+	.SpecialTextBlock .special-text-block-content {
+		width: 100%;
+		margin-top: 0;
+		padding: 30px;
+	}
+
+	// Box Icon
+	.BoxIcon.box-icon-horizontal {
+		.box-icon-header-wrapper {
+			width: 75px;
+
+			i {
+				font-size: 42px;
+			}
+		}
+	}
+
+	// Testimonials
+	.Testimonial .testimonial-text-wrapper .testimonial-text {
+		font-size: 18px;
+	}
+
+	// Content Slider
+	.ContentSliderWrapper .content-slider .content-slider-content-wrapper {
+		padding: 50px 20px;
+	}
+	.ContentSliderWrapper .content-slider .owl-prev {
+		left: 10px;
+	}
+	.ContentSliderWrapper .content-slider .content-slider-content {
+		padding: 30px 6% 0 8%;
+	}
+
+	// Upcoming Book
+	.UpcomingBookWrapper {
+		.upcoming-book-content {
+			padding: 30px;
+		}
+		.upcoming-book-release-date {
+			.countdown-item {
+				padding: 0 5px;
+
+				.countdown-number {
+					font-size: 60px;
+					line-height: .75em;
+					padding-bottom: 35px;
+				}
+				.countdown-text {
+					position: absolute;
+					left: 0;
+					right: 0;
+					bottom: 15px;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	// Accordion
+	.fw-accordion .fw-accordion-title {
+		padding: 20px 45px 20px 30px;
+		font-size: 20px;
+
+		&:before {
+			right: 25px;
+		}
+	}
+
+	//Events
+	.EventsFilter .events-filter-dropdown {
+		display: block;
+	}
+	.FeaturedEvent {
+		.featured-event-meta-wrapper {
+			width: 40%;
+
+			.featured-event-range-date .featured-event-date-time {
+				padding: 0;
+			}
+			.featured-event-range-date .featured-event-date-number {
+				font-size: 50px;
+			}
+			.featured-event-range-date .featured-event-delimeter {
+				font-size: 34px;
+			}
+		}
+		.featured-event-content {
+			left: 40%;
+			width: 60%;
+			padding: 180px 40px 90px;
+		}
+	}
+	.ContentElement, .c-elements-cols-3 .ContentElement {
+		width: 100%;
+		margin-right: 0;
+	}
+	.ContentElement:nth-child(2n), .ContentElement:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	// Simplified Posts
+	.ShortcodeBlog .SimplifiedPosts.posts-cols-2, .ShortcodeBlog .SimplifiedPosts.posts-cols-3, .SimplifiedPosts {
+		.simplified-post-wrapper {
+			width:100%;
+			margin-right: 0;
+		}
+	}
+	.SimplifiedPosts .simplified-post-meta .simplified-post-date {
+		padding: 15px 20px;
+	}
+
+
+	// Tabs
+	.fw-tabs-container.tabs-justified .fw-tabs ul {
+		overflow: hidden;
+		clear: both;		
+	}
+	.fw-tabs-container.tabs-justified .fw-tabs ul li a {
+		margin-bottom: 0;
+	}
+	.fw-tabs-container.tabs-justified .fw-tabs ul li {
+		display: inline-block;
+		float: left;
+		width: 50%;
+	}
+
+	// List
+	.ShortcodeList .list-item-content {
+		max-width: 83%;
+	}
+
+	// Widget Area
+	.shortcode-widget-area {
+		padding: 0;
+	}
+	
+	// Single Event
+	.SingleEventDate {
+		padding: 20px 25px;
+	}
+	.SingleEventDate .single-event-date-number {
+		font-size: 46px;
+	}
+	.SingleEventMetaHeader .single-event-meta-wrapper {
+		width: 100%;
+	}
+
+	// Single Post
+	.SinglePostFooter {
+		left: 15%;
+		width: 70%;
+	}
+
+	// Blog
+	.Excerpt .ExcerptContentWrapper {
+		padding: 40px 10px;
+	}
+	.Excerpt .ExcerptContentWrapper .excerpt-content {
+		padding: 20px 40px;
+	}
+
+	// Single Post
+	.SinglePostFooter {
+		left: 5%;
+		width: 90%;
+	}
+	.SinglePostFooter .single-post-footer-container {
+		max-width: 73%;
+	}
+
+	// Comments
+	.commentlist li .comment-content .comment-body {
+		padding: 30px 20px 40px 50px;
+	}
+
+
+	// Widgets
+	.widget {
+		max-width: 75%;
+	}
+	.widget_popular_posts .WidgetPostContent {
+		height: 140px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	// Base
+	.fw-container {
+		padding-left: $bootstrapSpacingMobile;
+		padding-right: $bootstrapSpacingMobile;
+	}
+	.fw-row {
+		margin-left: - $bootstrapSpacingMobile;
+		margin-right: - $bootstrapSpacingMobile;
+	}
+	[class^="fw-col-"], [class*=" fw-col-"] {
+		padding-left:  $bootstrapSpacingMobile;
+		padding-right:  $bootstrapSpacingMobile;
+	}
+	.container-fluid {
+		padding-left:  $bootstrapSpacingMobile;
+		padding-right:  $bootstrapSpacingMobile;
+	}
+
+	.container {
+		padding-left:  $bootstrapSpacingMobile;
+		padding-right:  $bootstrapSpacingMobile;
+	}
+
+	.row {
+		margin-left: - $bootstrapSpacingMobile;
+		margin-right: - $bootstrapSpacingMobile;
+	}
+
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		padding-left: $bootstrapSpacingMobile;
+		padding-right: $bootstrapSpacingMobile;
+	}
+	.owl-carousel .owl-dot span {
+		width: 40px;
+	}
+	.owl-carousel {
+		.owl-prev, .owl-next {
+			width: 15px;
+			height: 15px;
+		}
+	}
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	h4 {
+		font-size: 19px;
+	}
+
+	h5 {
+		font-size: 17px;
+	}
+
+	h6 {
+		font-size: 14px;
+	}
+
+	// Special Heading
+	.SpecialHeading {
+		.special-heading-letter:first-letter {
+			font-size: 1.9em;
+			padding: 0 20px;
+			margin-right: -0.45em;
+		}
+		h1.special-title {
+			font-size: 30px;
+			line-height: 2em;
+			letter-spacing: 1px;
+		}
+		h2.special-title {
+			font-size: 26px;
+		}
+		h3.special-title {
+			font-size: 24px;
+		}
+		h4.special-title {
+			font-size: 22px;
+		}
+		h5.special-heading-letter, h6.special-heading-letter {
+			&:first-letter {
+				padding: 5px 20px;
+			}
+		}
+		h5.special-title {
+			font-size: 21px;
+		}
+		h6.special-title {
+			font-size: 19px;
+		}
+		.special-title-small {
+			font-size: 22px;
+			line-height: 2em;
+			margin-bottom: 15px;
+		}
+		.special-title-small.special-heading-letter::first-letter {
+			font-size: 62px;
+			padding: 0 20px;
+		}
+	}
+
+	// Element Heading
+	.ElementHeading .element-title {
+		padding: 0;
+	}
+
+	// Special Text Block
+	.SpecialTextBlock .SpecialHeading {
+		padding-left: 0;
+	}
+	.SpecialTextBlock .SpecialHeading::before {
+		display: none;
+	}
+	.SpecialTextBlock .special-text-block-content {
+		padding: 15px;
+		font-size: 17px;
+		letter-spacing: 0.01em;
+	}
+	.special-link {
+		letter-spacing: .4em;
+	}
+
+	// Books Panel
+	.BooksPanel .books-panel-item.col-sm-4:nth-child(3n+1) {
+		clear: initial;
+	}
+	.BooksPanel .books-panel-item.col-sm-4:nth-child(2n+1) {
+		clear: left;
+	}
+
+
+	// Content Slider
+	.ContentSliderWrapper .content-slider-images {
+		height: 270px;
+	}
+	.ContentSliderWrapper .content-slider .content-slider-content {
+		padding: 0;
+	}
+	.ContentSliderWrapper .content-slider {
+		.owl-prev {
+			left: 0;
+		}
+		.owl-next {
+			right: 0;
+		}
+		.owl-dots {
+			padding-left: 10px;
+		}
+		.owl-dot span, .owl-dot.active span, .owl-dot:hover span{
+			border-bottom-width: 10px;
+		}
+	}
+
+	// List
+	.ShortcodeList .ListItem {
+		padding: 40px 0;
+	}
+
+	.ShortcodeList .list-item-number {
+		width: 80px;
+		max-width: 17%;
+	}
+	.ShortcodeList .list-item-content {
+		max-width: 79%;
+	}
+	.NumberedList .list-item-number::before {
+		width: 54%;
+	}
+	.NumberedList.list-right .list-item-number::after {
+		left: 0;
+		transform: translate(0, -50%);
+	}
+	.NumberedList.list-left .list-item-number::after {
+		left: auto;
+		right: 0;
+		transform: translate(0, -50%);
+	}
+
+	// Event
+	.ContentElement {
+		width: 95%;
+	}
+
+	// Box Icon
+	.BoxIcon.box-icon-vertical {
+		text-align: center;
+		margin-top: 60px;
+		margin-bottom: 100px;
+
+		.box-icon-header-wrapper i {
+			font-size: 75px;
+		}
+	}
+
+	// Mailchimp Newsletter
+	.MailchimpNewsletter input[type="email"] {
+		padding: 13px 20px;
+	}
+	.MailchimpNewsletter .btn-icon, .MailchimpNewsletter .btn-icon:focus {
+		position: relative;
+		display: block;
+		margin-top: 10px;
+		max-width: 100%;
+		width: 100%;
+	}
+
+	// Blockquote
+	blockquote p {
+		padding: 20px 10px;
+	}
+	blockquote footer {
+		margin-top: 10px;
+	}
+
+	// Upcoming Book
+	.UpcomingBookWrapper {
+		.upcoming-book-image {
+			width: 90%;
+		}
+		.upcoming-book-content {
+			padding: 20px;
+		}
+	}
+	// Accordion
+	.fw-accordion .fw-accordion-title {
+		padding: 20px 45px 20px 20px;
+		font-size: 18px;
+	}
+	.fw-accordion .fw-accordion-title::before {
+		right: 20px;
+	}
+	.fw-accordion .fw-accordion-content {
+		padding: 25px 20px;
+	}
+
+	// Tabs
+	.fw-tabs-container.tabs-justified .fw-tabs ul {
+		overflow: visible; 
+	}
+	.fw-tabs-container.tabs-justified .fw-tabs ul li {
+		width: 100%;
+		background: #fff;
+	}
+	.fw-tabs-container.tabs-vertical .fw-tabs {
+		width: 100%;
+		text-align: center;
+
+		ul li {
+			border-right: 0;
+		}
+	}
+	.fw-tabs-container .fw-tabs ul li a {
+		font-size: 18px;
+	}
+	.fw-tabs-container .fw-tabs ul li.ui-state-active a {
+		margin-bottom: 2px;
+	}
+	.fw-tabs-container .fw-tab-content {
+		padding: 25px;
+	}
+
+	// Events
+	.EventsFilter .events-filter-label {
+		margin-bottom: 15px;
+	}
+	.EventsFilter .events-filter-dropdown {
+		margin-left: 50px;
+	}
+	.FeaturedEvent {
+		.featured-event-meta-wrapper {
+			position: relative;
+			width: 100%;
+
+			.featured-event-meta {
+				padding: 40px 30px;
+			}
+			.featured-event-date-number {
+				margin-bottom: 25px;
+				font-size: 60px;
+			}
+			.featured-event-date-month {
+				display: inline-block;
+				margin-left: 5px;
+				margin-bottom: 0;
+				vertical-align: top;
+			}
+			.btn {
+				position: relative;
+				left: auto;
+				bottom: auto;
+				transform: none;
+			}
+		}
+		.featured-event-content {
+			min-height: auto;
+			left: 0;
+			width: 100%;
+			padding: 120px 40px 60px;
+		}
+	}
+
+	// Single Event
+	.SingleEventHeader .container {
+		margin-top: 60px;
+	}
+	.SingleEventDate {
+		width: 70%;
+		padding: 20px 10px;
+		text-align: center;
+	}
+	.SingleEventMetaHeader .information-wrapper {
+		.information-items-wrapper {
+			padding-left: 10px;
+		}
+		.information-item {
+			padding-left: 25px;
+		}
+		.information-label, .information-text {
+			font-size: 18px;
+			letter-spacing: 0.02em;
+		}
+	}
+
+	// Single Post
+	.SinglePostHeader {
+		padding: 40px 0;
+	}
+	.SinglePostFooter {
+		left: 0;
+		width: 100%;
+	}
+	.SinglePostFooter .single-post-footer-container {
+		max-width: 70%;
+	}
+
+	.SinglePostFooter .single-post-footer-label {
+		padding: 20px 15px;
+	}
+
+	// Page Header
+	.PageHeader {
+		padding-top: 80px;
+		padding-bottom: 60px;
+	}
+
+	// Blog
+	.BlogHeader.mb-100 {
+		margin-bottom: 40px;
+	}
+	.Excerpt .ExcerptContentWrapper .excerpt-date {
+		padding: 10px 25px;
+	}
+	.Excerpt .ExcerptContentWrapper .excerpt-date span {
+		font-size: 12px;
+	}
+	.Excerpt .ExcerptContentWrapper .excerpt-content {
+		padding: 0 10px;
+	}
+	.Excerpt .ExcerptContentWrapper .read-more .special-subtitle-type-2 {
+		font-size: 15px;
+	}
+	.PostNav .special-link {
+		position: relative;
+		letter-spacing: 0.25em;
+		font-size: 16px;
+
+		i {
+			position: absolute;
+			bottom: 100%;
+			left: 0;
+			right: 0;
+		}
+	}
+
+	// Comments
+	.commentlist li .comment-content .comment-body {
+		padding: 20px 10px 30px 35px;
+	}
+
+	.commentlist .children {
+		padding-left: 15px;
+	}
+
+	// Widgets
+	.widget_popular_posts .popular-posts-header {
+		left: 10px;
+		right: 10px;
+	}
+	
+}

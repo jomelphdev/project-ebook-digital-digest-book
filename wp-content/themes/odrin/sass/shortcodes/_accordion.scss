@@ -1,0 +1,55 @@
+.fw-accordion {
+	clear: both;
+}
+
+.fw-accordion .fw-accordion-title {
+	position: relative;
+	font-size: 22px;
+	cursor: pointer;
+	padding: 20px 60px 20px 30px;
+	margin: 0;
+	background-color: #fff;
+	transition: .2s;
+
+	&:before {
+		@extend %fa;
+		content: '';
+		position: absolute;
+		top: 50%;
+		right: 35px;
+		font-size: 26px;
+		margin-top: -13px;
+		color: $colorMain;
+		content: "\f107";
+	}
+
+	&.ui-state-active {
+		color: $colorTextWhite;
+		background-color: $colorMain;
+
+		&:before {
+			content: "\f106";
+			color: $colorTextWhite;
+		}
+	}
+}
+
+.fw-accordion .fw-accordion-title:focus {
+	outline: medium none;
+}
+
+.fw-accordion .fw-accordion-title .ui-icon {
+	display: none;
+}
+
+.fw-accordion .fw-accordion-content {
+	clear: both;
+	overflow: hidden;
+	padding: 40px;
+	font-weight: 600;
+	border-bottom: 2px solid $colorBorder;
+}
+
+.fw-accordion .fw-accordion-content p:last-child {
+	margin-bottom: 0;
+}

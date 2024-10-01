@@ -1,0 +1,100 @@
+.UpcomingBookWrapper {
+
+	.upcoming-book-image {
+		position: relative;
+		display: inline-block;
+		width: 38%;
+		z-index: 1;
+	}
+
+	.upcoming-book-image.upcoming-product-image {
+		width: 35%;
+	}
+
+	.ElementHeading .element-title {
+		padding: 0;
+	}
+
+	.upcoming-book-content {
+		position: relative;
+		display: inline-block;
+		width: 64%;
+		padding: 60px 90px 80px;
+		background-color: $colorBgBody;
+		margin: 0 0 0 -3%;
+		vertical-align: middle;
+
+		.special-link {
+			color: $colorSecondary;
+		}
+	}
+
+	.upcoming-product-image + .upcoming-book-content {
+		width: 67%;
+		padding: 60px 70px 80px 110px;
+	}
+
+	.upcoming-product-image {
+		z-index: 1;
+
+		.upcoming-book-content {
+			padding: 60px 70px 80px 100px;
+		}
+	}
+
+	.SingleProductImage .single-product-price {
+		padding: 25px 35px;
+		top: auto;
+		right: 50%;
+		margin-left: -25%;
+		bottom: -50px;
+		transform: translateX(50%);
+	}
+
+	.upcoming-book-release-date {
+		color: $colorTextMedium;
+
+		.countdown-item {
+			position: relative;
+			display: inline-block;
+			padding: 0 15px;
+
+			.countdown-number {
+				display: inline-block;
+				font-size: 76px;
+				font-weight: 300;
+				line-height: .9em;
+			}
+
+			.countdown-text {
+				font-size: 16px;
+				font-weight: 400;
+				letter-spacing: .05em;
+				text-transform: uppercase;
+				color: $colorSecondary;
+				vertical-align: top;
+			}
+		}
+
+		.countdown-text {
+			display: inline-block;
+			font-size: 36px;
+			line-height: 1.22em;
+			font-weight: 700;
+		}
+
+		.countdown-expired-text {
+			display: none;
+
+			p:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.upcoming-book-release-date.countdown-expired {
+		.countdown-expired-text {
+			display: inline-block;
+		}
+	}
+}

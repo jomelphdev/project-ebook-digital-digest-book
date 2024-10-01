@@ -1,0 +1,175 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * WordPress Required Classes
+ * ----------------------------------------------------------------------------------------
+ */
+
+ img[class*="wp-image-"],
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.alignnone, .aligncenter, .alignleft, .alignright {
+    max-width: 100%;
+}
+
+.alignnone {
+    margin: 1em 0;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+    margin: 1em 2em 1em 0;
+}
+
+.alignright {
+    float: right;
+    margin: 1em 0 1em 2em;
+}
+
+.sticky {
+    /**/
+}
+
+.bypostauthor {
+    /**/
+}
+
+.screen-reader-text {
+    /**/
+}
+
+
+
+/**
+*  Gallery
+*/
+
+
+.gallery {
+    margin-bottom: 1.6em;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.gallery .gallery-item {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px 40px 20px;
+    text-align: center;
+
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-icon img {
+    margin: 0 auto;
+}
+
+.wp-caption,
+.wp-caption-text,
+.gallery-caption {
+    max-width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 10px 10px;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .gallery-columns-5 .gallery-item {
+        max-width: 25%;
+    }
+
+    .gallery-columns-6 .gallery-item {
+        max-width: 20%;
+    }
+
+    .gallery-columns-7 .gallery-item {
+        max-width: 16.66%;
+    }
+
+    .gallery-columns-8 .gallery-item {
+        max-width: 14.28%;
+    }
+
+    .gallery-columns-9 .gallery-item {
+        max-width: 12.5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery-columns-4 .gallery-item,
+    .gallery-columns-5 .gallery-item,
+    .gallery-columns-6 .gallery-item,
+    .gallery-columns-7 .gallery-item,
+    .gallery-columns-8 .gallery-item,
+    .gallery-columns-9 .gallery-item {
+        max-width: 33.33%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .gallery-columns-3 .gallery-item,
+    .gallery-columns-4 .gallery-item,
+    .gallery-columns-5 .gallery-item,
+    .gallery-columns-6 .gallery-item,
+    .gallery-columns-7 .gallery-item,
+    .gallery-columns-8 .gallery-item,
+    .gallery-columns-9 .gallery-item {
+        max-width: 50%;
+    }
+}

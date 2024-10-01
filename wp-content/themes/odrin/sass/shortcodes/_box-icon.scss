@@ -1,0 +1,64 @@
+.BoxIcon {
+	.box-icon-header-wrapper {
+		i {
+			color: $colorMain;
+		}
+	}
+}
+
+.BoxIcon.box-icon-vertical {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 60px;
+
+	.box-icon-header-wrapper {
+		margin-bottom: 40px;
+
+		.box-icon-title {
+			position: relative;
+			display: inline-block;
+			margin-bottom: 0;
+			z-index: 10;
+		}
+
+		i {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			font-size: 90px;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: .4;
+		}
+	}
+}
+
+.BoxIcon.box-icon-horizontal {
+	@extend %clearfix;
+	margin-bottom: 50px;
+
+	.box-icon-header-wrapper {
+		display: inline-block;
+		width: 95px;
+		text-align: center;
+		vertical-align: top;
+
+ 		i {
+ 			font-size: 52px;
+ 		}
+	}
+
+	.box-icon-content {
+		display: inline-block;
+		width: 83%;
+		width: calc(100% - 100px);
+		padding-left: 5px;
+
+		.box-icon-title {
+			margin-bottom: 10px;
+		}
+	}
+
+	.box-icon-text {
+		text-align: justify;
+	}
+}

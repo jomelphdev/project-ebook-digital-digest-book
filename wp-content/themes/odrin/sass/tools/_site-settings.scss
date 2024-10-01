@@ -1,0 +1,84 @@
+/**
+*  Colors
+*/
+
+// Base Colors
+$colorMain: #FAAB9F;
+$colorSecondary: #D38D45;   // #334236 #71B2B5 #C39D63
+$colorThird: #F4E6DE;
+
+// Background Colors
+$colorBgLight: #fafafa;
+$colorBgMedium: #eee;
+$colorBgDark: #232323;
+$colorBgBody: #f7f7fa;
+
+// Text Colors
+$colorText: #333;
+$colorTextMedium: #777;
+$colorTextHeading: #222;
+$colorTextDark: #111;
+$colorTextLight: #ddd;
+$colorTextWhite: #fafafa;
+
+// Links
+$colorLink: $colorMain;
+$colorLinkHover: $colorMain;
+
+// Borders
+$colorBorder: $colorSecondary;
+$colorBorderDark: #747474;
+$colorBorderLight: #bbb;
+
+/**
+*  Typography
+*/
+
+// Subheading	
+
+// Font Family
+
+
+// Font Size
+$fontsize: 16px;
+$baseline: 1.82em;
+$letterspacing: 0em;
+$fontWeightBase: 400;
+$fontweightHeading: 700;
+
+/**
+*  Layout
+*/
+
+$marginleft: $baseline;
+$bootstrapSpacing: 25px;
+$bootstrapSpacingMobile: 15px;
+
+
+/**
+*  Buttons
+*/
+
+// Buttons - Main
+$button_fontSize: 17px;
+$button_borderColor: $colorBgDark;
+$button_borderWidth: 1px;
+$button_borderRadius : 0;
+// Buttons - Colors
+$button_colorText: #000;
+$button_bgColored: $colorMain;
+$button_bgLight: $colorBgLight;
+$button_bgSuccess: #5CB85C;
+$button_bgInfo: #5BC0DE;
+$button_bgDanger: #D9534F;
+$button_bgWarning: #F0AD4E;
+// Buttons - Hover
+$button_bgMainHover: $colorMain; // Background color of the main button on hover
+$button_colorTextHover: $colorTextWhite; //Text color of the main button on hover
+$button_borderColorHover: $colorMain; //Border color of the main button on hover
+ 
+
+/**
+*  Widgets
+*/
+$widget_marginbottom: 80px;

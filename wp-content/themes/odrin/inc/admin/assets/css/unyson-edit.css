@@ -1,0 +1,37 @@
+/**
+* ----------------------------------------------------------------------------------------
+*   Unyson Admin Edits
+* ----------------------------------------------------------------------------------------
+*/
+
+.fw-option-type-typography-v2-option.fw-option-typography-v2-option-subset select {
+    padding: 2px 4px;
+}
+
+.fw-backend-option-input-type-html {
+	padding-top: 4px;
+}
+
+#fw-backend-option-fw-edit-options-modal-book_image {
+    display: none;
+}
+
+.notice.fw-brz-dismiss {
+	display: none;
+}
+
+/**
+ * Hide Brizy
+ */
+
+.notice.fw-brz-dismiss,
+.fw-extensions-list .fw-extensions-list-item .fw-ext-brizy {
+	display: none;
+}
+
+/**
+ * Show Page Title in Gutenberg Editor with Page Template
+ */
+.fw-page-builder-editor-integration-active .edit-post-visual-editor .block-editor-block-list__layout {
+	display: none;
+}

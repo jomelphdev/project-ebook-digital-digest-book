@@ -1,0 +1,554 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Widget styles.
+ * ----------------------------------------------------------------------------------------
+ */
+
+ /**
+ *  Global
+ */
+
+.widget {
+	position: relative;
+	font-size: 15px;
+	line-height: 1.76em;
+	margin-bottom: $widget_marginbottom;
+	word-wrap: break-word;
+
+	.widget-no-padding {
+		margin: -30px;
+	}
+
+	.widget-title {
+		position: relative;
+		font-size: 23px;
+		margin-bottom: 30px;
+		z-index: 1;
+	}
+
+	.dash-left {
+		margin-left: 0;
+
+		&:before {
+			width: 35px;
+		}
+	}
+
+	h1 {
+		font-size: 26px;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	h5 {
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+
+	h6 {
+		font-size: 15px;
+		margin-bottom: 1em;
+	}
+
+	ul,
+	ol {
+		padding-left: 0;
+
+		li ol,
+		li ul {
+			margin-left: 30px;
+		}
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+
+	a {
+		color: $colorText;
+		border-bottom: 2px dotted $colorMain;
+
+		&:hover {
+			color: $colorSecondary;
+		}
+	}
+
+	> ul,
+	> ol,
+	.menu {
+		list-style: none;
+	}
+
+	.menu {
+		.menu-item, .menu-item-has-children {
+			i[class^="icon-"] {
+				margin-right: 7px;
+				color: $colorMain;
+				font-size: 19px;
+			}
+		}
+	}
+
+	.sub-menu, ul.children {
+		position: relative;
+		margin-top: 10px;
+		list-style: none;
+
+		.sub-menu {
+			margin-left: 10px;
+		}
+
+		&:before, &:after {
+			position: absolute;
+			content: '';	
+			background-color: $colorSecondary;
+		}
+		&:before {
+			top: 10px;
+			left: -30px;
+			width: 1px;
+			height: 7px;
+		}
+		&:after {
+			top: 17px;
+			left: -30px;
+			width: 25px;
+			height: 1px;
+		}
+	}
+
+	label {
+		margin-bottom: 5px;
+		font-size: 14px;
+		text-transform: none;
+	}
+
+	.screen-reader-text {
+		display: none;
+	}
+
+	select {
+		padding: 10px 40px 10px 10px;
+		color: $colorTextDark;
+	}
+
+	.comment-author-link {
+		font-style: italic;
+	}
+}
+
+
+/**
+* Calendar Widget Styles.
+*/
+
+#wp-calendar {
+	width: auto;
+	margin-bottom: 0;
+	border-collapse: collapse;
+
+	caption {
+		font-weight: 700;
+		text-align: center;
+		letter-spacing: .2em;
+		text-transform: uppercase;
+		background-color: $colorMain;
+		color: $colorTextWhite;
+	}
+
+	td, th, tr, thead {
+		border: none;
+		text-align: center;
+	}
+
+	thead th {
+		padding: 10px 6px;
+		font-weight: 800;
+	}
+
+	td {
+		padding: 5px 10px;
+	}
+
+	a {
+		font-weight: bold;
+	}
+
+	#today {
+		font-weight: 800;
+		color: $colorMain;
+	}
+
+	tbody {
+		&:after {
+			content: '';
+			display: block;
+			height: 15px;
+		}
+	}
+
+	#prev {
+		text-align: left;
+	}
+
+	#next {
+		text-align: right;
+	}
+
+}
+
+/**
+*  Tag Cloud
+*/
+
+.widget_tag_cloud, .widget_product_tag_cloud {
+	.tagcloud a {
+		transition: .2s;
+		display: inline-block;
+		position: relative;
+		font-size: 11px !important;
+		line-height: 20px;
+		font-weight: 700;
+		letter-spacing: .2em;
+		padding: 5px 11px;
+		text-transform: uppercase;
+		margin: 0 10px 10px 0;
+		border: 1px solid $colorSecondary;
+
+		&:hover {
+			background-color: $colorMain;
+			color: $colorTextWhite;
+			border-color: $colorMain;
+		}
+	}
+}
+
+/**
+*  About Me Widget
+*/
+.about-me-widget-wrapper {
+	.about-me-widget-image {
+		position: relative;
+		margin-bottom: 30px;
+
+		&:after {
+			position: absolute;
+			content: '';
+			bottom: -19px;
+			left: 0;
+			height: 2px;
+			width: 30%;
+			background-color: $colorText;
+		}
+	}
+	img {
+		position: relative;
+		display: block;
+		margin: 0 auto;
+	}
+}
+.section-light .about-me-widget-wrapper {
+	.about-me-widget-image {
+		&:after {
+			background-color: $colorTextLight;
+		}
+	}
+}
+.about-me-widget-information {
+	font-size: 14px;
+	line-height: 1.77em;
+}
+.widget.widget_odrin_about_me_widget {
+	.about-me-widget-footer {
+		transition: .2s;
+		margin-top: 20px;
+
+		a {
+			position: relative;
+			border: 1px solid $button_borderColor;
+
+			&:hover {
+				color: $button_colorTextHover;
+				border: 1px solid $button_borderColorHover;
+			}
+		}
+	}
+}
+
+/**
+*  Audio Widget
+*/
+.widget.widget_media_audio {
+	a {
+		border-bottom: none;
+	}
+}
+
+/**
+*  Image Widget
+*/
+.image-widget-wrapper {
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+.widget.widget_media_image a {
+	border-bottom: none;
+}
+
+/**
+*  RSS
+*/
+.rss-date {
+	display: block;
+	font-size: 12px;
+}
+
+/**
+*  Social Widget
+*/
+.widget.widget_odrin_social {
+	a {
+		display: inline-block;
+		margin: 0 10px 15px 0;
+		background-color: $colorBgLight;
+		width: 45px;
+		height: 45px;
+		font-size: 18px;
+		line-height: 45px;
+		text-align: center;
+		border: none;
+		box-shadow: 0px 3px 9px -7px rgba(0, 0, 0, .3);
+	}
+}
+.section-light .widget.widget_odrin_social a {
+	color: $colorText;
+	border: none;
+
+	&:hover {
+		color: $colorTextWhite;
+	}
+}
+
+/**
+*  Popular Posts
+*/
+.widget_popular_posts, .widget_latest_events {
+
+	article {
+		margin-bottom: 10px;
+	}
+
+	.WidgetPostContent { 
+		position: relative;
+		overflow: hidden;
+		height: 120px;
+	}
+
+	.bg-image {
+		transform: scale(1.1);
+		transition: .6s;
+	}
+
+	.popular-posts-header {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		right: 20px;
+		bottom: 20px;
+	}
+
+	.popular-posts-title {
+		font-size: 16px;
+		line-height: 1.44em;
+		font-weight: 600;
+		color: $colorTextLight;
+	}
+
+	.popular-posts-meta-extra {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		font-size: 14px;
+		margin-bottom: 0;
+		line-height: 1.44em;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: $colorTextWhite;
+		border-bottom: 2px dotted $colorMain;
+	}
+
+	a:hover {
+		.bg-image {
+			transform: scale(1);
+		}
+	}
+
+	.overlay-diagonal-lines {
+		background-color: rgba(0, 0, 0, .8);
+	}
+	
+}
+
+.widget_recent_entries {
+	.post-date {
+		display: block;
+		font-size: 12px;
+	}
+}
+
+/**
+*  Twitter Widget
+*/
+
+.widget_twitter li {
+	margin-bottom: 20px;
+}
+
+.tweet-content {
+	position: relative;
+	    z-index: 4;
+	&:before {
+		position: absolute;
+		top: 0;
+		left: -10px;
+		content: "\f099";
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
+		font-size: 60px;
+		opacity: .07;
+		z-index: -1;
+	}
+}
+
+a.tweet-time {
+	font-size: 13px;
+	color: $colorMain;
+	border: none;
+}
+
+/**
+* ----------------------------------------------------------------------------------------
+*    WooCommerce Widgets
+* ----------------------------------------------------------------------------------------
+*/
+
+/**
+*  Cart
+*/
+
+.woocommerce.widget_shopping_cart .cart_list li {
+	padding-left: 0;
+	font-weight: 600;
+}
+
+/**
+*  Products
+*/
+
+.woocommerce ul.product_list_widget li {
+	position: relative;
+	margin-bottom: 20px;
+	padding: 0 0 15px 75px;
+	min-height: 65px;
+	
+	a {
+		font-size: 17px;
+		border: none;
+	}
+
+	img {
+		float: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: auto;
+		max-width: 55px;
+	}
+
+	.woocommerce-Price-currencySymbol {
+		color: $colorSecondary;
+		margin-right: 3px;
+	}
+}
+
+/**
+*  Product Search
+*/
+
+.woocommerce.widget_product_search {
+	.screen-reader-text {
+		display: none;
+	}
+	.search-field {
+		height: 45px;
+		margin-bottom: 10px;
+	}
+	input[type="submit"] {
+		transition: .2s;
+		padding: 0 15px;
+		height: 45px;
+		width: 100%;
+		border: 2px solid $colorMain;
+		background-color: $colorMain;
+		color: $colorTextWhite;
+
+		&:hover {
+			background-color: transparent;
+			color: $colorText;
+			border: 2px solid $colorMain;
+		}
+	}
+}
+
+/**
+*  Recent Reviews
+*/
+
+.woocommerce.widget {
+	.star-rating {
+		margin: 5px 0;
+		font-size: 11px;
+
+		span:before {
+			color: $colorMain;
+		}
+
+		&:before {
+			color: $colorMain;
+		}
+	}
+	.reviewer {
+		color: $colorTextDark;
+		font-size: 13px;
+		font-weight: 600;
+	}
+}
+
+
+ /**
+ *  Shortcode Widget Area
+ */
+
+ .shortcode-widget-area {
+ 	padding: 0 45px;
+ }
+
+ /**
+ *  Footer Widgets
+ */
+
+ .footer .widget {
+	margin-bottom: 60px;
+ }

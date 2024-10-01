@@ -1,0 +1,179 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Forms
+ * ----------------------------------------------------------------------------------------
+ */
+
+button,
+input,
+select,
+textarea {
+	max-width: 100%;
+}
+
+textarea {
+	height: 150px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: $colorTextDark;
+    max-width: 85%;
+}
+
+select {
+	padding: 13px 16px;
+    margin: 0;
+    appearance: none;
+    background-image: url(../images/chevron-down.svg);
+    background-repeat: no-repeat;
+    background-size: 19px;
+    background-position: 92% 50%;
+    border: none;
+}
+
+input[type=checkbox],
+input[type=radio] {
+	margin-top: 0;
+	margin-top: 1px \9;
+	margin-right: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="password"],
+textarea {
+	transition: all ease-in-out .15s;
+	display: block;
+	width: 100%;
+	padding: 13px 16px;
+	background-color: #fff;
+	border-radius: 0;
+	border: none;
+}
+
+/**
+*  Search
+*/
+
+.SearchForm {
+	.search-form-wrapper {
+		position: relative;
+		
+		.search-form-input {
+			display: inline-block;
+			padding-right: 60px;
+			height: 45px;
+		}
+		.btn-search {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 45px;
+			height: 45px;
+			padding: 0;
+			border: none;
+			border-left: 1px solid $colorTextLight;
+
+			i {
+				margin: 0;
+			}
+
+			&:hover {
+				border-left: 1px solid $colorMain;
+			}
+		}
+	}
+}
+
+
+/**
+*  Select 2
+*/
+
+.select2-container .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+	padding: 13px 16px;
+	height: auto;
+	border: none;
+	border-radius: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 50%;
+	transform: translateY(-50%);
+	right: 15px;
+}
+
+
+/**
+*  Comments & Contact Form
+*/
+
+.field-text, .field-textarea {
+	position: relative;
+	font-size: 12px;
+	margin-bottom: 25px;
+
+	label {
+		transition: .3s;
+		font-size: 16px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.3em;
+		padding: 0 15px;
+	}
+
+	&:hover label {
+		color: $colorMain;
+	}
+
+	input, textarea {
+		position: relative;
+		font-size: 14px;
+		line-height: 33px;
+		padding: 7px 15px 7px;
+		margin-bottom: 10px;
+	}
+
+	p {
+		position: absolute;
+		bottom: 100%;
+		left: 10px;
+	}
+}
+
+.input-styled, .field-recaptcha {
+	padding-left: 5px;
+
+	& > label {
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		margin: 0;
+		font-size: 12px;
+	}
+}
+
+.field-recaptcha {
+	margin-bottom: 20px;
+}
+
+
+/**
+*  Contact Form 7
+*/
+
+.wpcf7 {
+	label {
+		width: 100%;
+	}
+}

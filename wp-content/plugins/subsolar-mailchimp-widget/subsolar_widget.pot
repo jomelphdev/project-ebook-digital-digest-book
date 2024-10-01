@@ -1,0 +1,118 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Subsolar Designs Mailchimp Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 08:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.4.2"
+
+#: mailchimp-widget/class-widget-mailchimp.php:11
+msgid "[Subsolar Designs] Mailchimp Newsletter"
+msgstr ""
+
+#: index.php:49
+msgid "Adding your email address..."
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds a Mailchimp Widget and Unyson Shortcode by Subsolar Designs."
+msgstr ""
+
+#: index.php:170 index.php:173 index.php:176
+msgid "Appearance -> Theme Settings"
+msgstr ""
+
+#: mailchimp-widget/class-widget-mailchimp.php:84
+msgid "Button Text"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.subsolardesigns.com"
+msgstr ""
+
+#: index.php:170
+#, php-format
+msgid ""
+"Mailchimp API Key and List ID are not set, enter them from %s -> Social -> "
+"Mailchimp"
+msgstr ""
+
+#: index.php:173
+#, php-format
+msgid "Mailchimp API Key not found, enter it from %s -> Social -> Mailchimp"
+msgstr ""
+
+#: index.php:134
+msgid "Mailchimp API Key or List ID are not set."
+msgstr ""
+
+#: index.php:176
+#, php-format
+msgid "Mailchimp List ID not found, enter it from %s -> Social -> Mailchimp"
+msgstr ""
+
+#: mailchimp-widget/class-widget-mailchimp.php:63
+msgid "Make sure you don't miss anything!"
+msgstr ""
+
+#: mailchimp-widget/class-widget-mailchimp.php:62
+msgid "Newsletter"
+msgstr ""
+
+#: index.php:89
+msgid "Oops! This email address is already subscribed!"
+msgstr ""
+
+#: index.php:113 index.php:136 index.php:150
+msgid "Something went wrong. We couldn't sign you up."
+msgstr ""
+
+#: mailchimp-widget/class-widget-mailchimp.php:64
+msgid "Subscribe"
+msgstr ""
+
+#: mailchimp-widget/class-widget-mailchimp.php:10
+msgid "Subscription form with Mailchimp integration."
+msgstr ""
+
+#: mailchimp-widget/class-widget-mailchimp.php:89
+msgid "Subscription Text"
+msgstr ""
+
+#. Author of the plugin
+msgid "Subsolar Designs"
+msgstr ""
+
+#. Name of the plugin
+msgid "Subsolar Designs Mailchimp Widget"
+msgstr ""
+
+#: index.php:110
+msgid "Success! You are signed up."
+msgstr ""
+
+#: mailchimp-widget/class-widget-mailchimp.php:79
+msgid "Title"
+msgstr ""
+
+#: index.php:48
+msgid "You have entered an invalid email address."
+msgstr ""
+
+#: index.php:47
+msgid "You have not entered an email address."
+msgstr ""
+
+#: mailchimp-widget/class-widget-mailchimp.php:34
+msgid "Your e-mail address"
+msgstr ""

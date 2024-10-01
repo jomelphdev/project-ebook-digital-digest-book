@@ -1,0 +1,80 @@
+.fw-alert {
+	position: relative;
+	padding: 50px 40px;
+	margin-bottom: 20px;
+	border-top: 5px dashed transparent;
+	text-transform: uppercase;
+	font-size: 15px;
+	border-radius: 0;
+	background-color: #fff;
+}
+.fw-alert .alert-link {
+	font-weight: bold;
+}
+.fw-alert > p,
+.fw-alert > ul {
+	margin-bottom: 0;
+}
+.fw-alert > p + p {
+	margin-top: 5px;
+}
+.fw-alert .alert-icon {
+	position: absolute;
+	top: 50%;
+	width: 70px;
+	margin-right: 15px;
+	font-size: 33px;
+	transform: translateY(-50%);
+}
+.alert-dismissible {
+	padding-right: 35px;
+}
+.alert-dismissible .close {
+	position: relative;
+	top: -2px;
+	right: -21px;
+	color: inherit;
+}
+.fw-alert-success {
+	border-color: $button_bgSuccess;
+	color: $button_bgSuccess;
+}
+.fw-alert-success hr {
+	border-top-color: #c9e2b3;
+}
+.fw-alert-success .alert-link {
+	color: #2b542c;
+}
+.fw-alert-info {
+	border-color: $button_bgInfo;
+	color: $button_bgInfo;
+}
+.fw-alert-info hr {
+	border-top-color: #a6e1ec;
+}
+.fw-alert-info .alert-link {
+	color: #245269;
+}
+.fw-alert-warning {
+	border-color: $button_bgWarning;
+	color: $button_bgWarning;
+}
+.fw-alert-warning hr {
+	border-top-color: #f7e1b5;
+}
+.fw-alert-warning .alert-link {
+	color: #66512c;
+}
+.fw-alert-danger {
+	border-color: $button_bgDanger;
+	color: $button_bgDanger;
+}
+.fw-alert-danger hr {
+	border-top-color: #e4b9c0;
+}
+.fw-alert-danger .alert-link {
+	color: #843534;
+}
+.fw-alert-message {
+    margin-left: 70px;
+}

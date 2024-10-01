@@ -1,0 +1,104 @@
+.BooksPanel {
+	
+	@extend %clearfix;
+
+	.books-panel-container {
+		float: left;
+		width: 60%;
+	}
+
+	.books-panel-item.col-sm-4:nth-child(3n+1) {
+		clear: left;
+	}
+
+	.books-panel-item.col-sm-6:nth-child(2n+1) {
+		clear: left;
+	}
+
+	.books-panel-item-wrap {
+		display: block;
+		margin-bottom: $bootstrapSpacing*2;
+		perspective: 600px;
+
+
+		&:hover .book-thumb-img-wrap:not(.book-thumb--no-flip), &.selected .book-thumb-img-wrap:not(.book-thumb--no-flip) {
+			transform: rotateY(-45deg);
+		}
+	}
+
+	.book-thumb-img-wrap {
+		transition: .3s ease-out;
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.book-thumb-title {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.books-panel-info {
+		float: left;
+		width: 40%;
+		padding-left: 100px;
+	}
+
+	.books-panel-info-inner {
+		transition: .4s;
+		transform: translateY(40px);
+		opacity: 0;
+		visibility: hidden;
+		display: none;
+
+		&.visible {
+			opacity: 1;
+			visibility: visible;
+			transform: translateY(0);
+		}
+
+		.btn.is-page-flip {
+			margin: 20px 30px 20px 0;
+		}
+
+		.special-link {
+			display: inline-block;
+			font-size: 16px;
+			letter-spacing: 0.4em;
+			vertical-align: middle;
+			padding: 20px 0;
+			margin-right: 15px;
+		}
+	}
+	
+	.book-panel-info-description > p:last-child {
+		margin-bottom: 40px;
+	}
+
+	.book-panel-info-categories {
+		font-weight: 700;
+		margin-bottom: 40px;
+	}
+
+	.book-panel-price {
+		del, & > span {
+			display: inline-block;
+			color: $colorText;
+		}
+		del {
+			margin-right: 15px;
+			font-size: 19px;
+			opacity: .85;
+		}
+
+		& > span  {
+			font-size: 30px;
+
+			.woocommerce-Price-currencySymbol {
+				color: $colorSecondary;
+				font-weight: 300;
+				margin-right: 3px;
+			}
+		}
+	}	
+
+}

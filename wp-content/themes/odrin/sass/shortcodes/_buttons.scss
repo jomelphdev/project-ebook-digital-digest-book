@@ -1,0 +1,324 @@
+/**
+* ----------------------------------------------------------------------------------------
+*    Buttons
+* ----------------------------------------------------------------------------------------
+*/
+
+.btn, button[type='submit'], input[type='submit'],
+.elementor-widget-button .elementor-button {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	color: $button_colorText;
+	font-size: $button_fontSize;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	text-align: center;
+	background: transparent;
+	transition: .1s;
+	@if $button_borderWidth {
+		border: $button_borderWidth solid $button_borderColor;
+	} @else {
+		border: none;
+	}
+	padding: 15px 35px;
+	border-radius: $button_borderRadius;
+	
+	& > i {
+		position: relative;
+		margin: 0 10px 0 0;
+		color: $colorMain;
+		transition: .1s;
+	}
+
+	&:active {
+		box-shadow: none;
+	}
+
+	&[disabled] {
+		opacity: .4;
+	}
+
+}
+
+%btn--hover {
+	color: $button_colorTextHover;
+	outline: 0;
+
+	& > i {
+		color: #fff;
+	}
+
+	@if $button_bgMainHover {
+		background: $button_bgMainHover;
+	}
+	@if $button_borderWidth {
+		border: $button_borderWidth solid  $button_borderColorHover;
+	} @else {
+		border: none;
+	}
+}
+
+.btn, .btn-normal, button[type='submit'], input[type='submit'] {
+	&:hover, &:active, &:active:focus {
+		@extend %btn--hover;
+	}
+}
+
+.btn.btn-small {
+	&, &:focus {
+		font-size: $button_fontSize * 0.85;
+		padding: 10px 20px;
+	}
+}
+
+
+// Button Colors
+
+.btn.btn-color, .btn.btn-color.btn-success, .btn.btn-color.btn-info, .btn.btn-color.btn-danger, .btn.btn-color.btn-warning {
+
+	&, &:focus {
+		color: #fff;
+
+		& > i {
+			color: #fff;
+		}
+	}
+
+	&:hover, &:active, &:active:focus {
+		color: #fff;
+	}
+}
+
+.btn.btn-color, button[type='submit'].btn.btn-color, input[type='submit'].btn.btn-color {
+
+	&, &:focus {
+		background: $button_bgColored;
+		color: #fff;
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgColored;
+		} @else {
+			border: none;
+		}
+	}
+
+	&:hover, &:active, &:active:focus {
+		color: $button_colorText;
+		background: transparent;
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgColored;
+		} @else {
+			border: none;
+		}
+
+		& > i {
+			color: $button_colorText;
+		}
+	}
+
+}
+
+.btn.btn-icon {
+
+	&, &:focus {
+		background: $button_bgColored;
+		color: #fff;
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgColored;
+		} @else {
+			border: none;
+		}
+	}
+
+	span {
+		display: block;
+		transition: .3s;
+	}
+
+	&:before {
+		position: absolute;
+		font-family: 'Font Awesome 5 Free';
+		top: 0;
+		left: -100%;
+		height: 100%;
+		width: 100%;
+		font-size: 22px;
+		line-height: 52px;
+		color: $colorTextWhite;
+		transition: .3s;
+	}
+
+	&:hover, &:active, &:active:focus {
+		background: $button_bgColored;
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgColored;
+		} @else {
+			border: none;
+		}
+
+		span {
+			transform: translateX(130%);
+		}
+
+		&:before {
+			left: 0;
+		}
+	}
+}
+
+.btn.btn-border {
+
+	&, &:focus {
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgColored;
+		} @else {
+			border: none;
+		}
+	}
+
+	&:hover, &:active, &:active:focus {
+		background: $button_bgColored;
+		color: #fff;
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgColored;
+		} @else {
+			border: none;
+		}
+	}
+
+}
+
+.btn.btn-light {
+	color: #fff;
+
+	&, &:focus {
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgLight;
+		} @else {
+			border: none;
+		}
+	}
+
+	&:hover, &:active, &:active:focus {
+		background: $button_bgColored;
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgColored;
+		} @else {
+			border: none;
+		}
+	}
+}
+
+.btn.btn-success {
+
+	&.btn-color {
+		background: $button_bgSuccess;	
+	}
+
+	&, &:focus {
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgSuccess;
+		} @else {
+			border: none;
+		}
+	}
+
+	&:hover, &:active, &:active:focus {
+		background: lighten($button_bgSuccess, 6%);
+		@if $button_borderWidth {
+			border: $button_borderWidth solid lighten($button_bgSuccess, 6%);
+		} @else {
+			border: none;
+		}
+	}
+
+}
+
+.btn.btn-info {
+
+	&.btn-color {
+		background: $button_bgInfo;	
+	}
+
+	&, &:focus {
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgInfo;
+		} @else {
+			border: none;
+		}
+	}
+
+	&:hover, &:active, &:active:focus {
+		background: lighten($button_bgInfo, 6%);
+		@if $button_borderWidth {
+			border: $button_borderWidth solid lighten($button_bgInfo, 6%);
+		} @else {
+			border: none;
+		}
+	}
+
+}
+
+.btn.btn-danger {
+
+	&.btn-color {
+		background: $button_bgDanger;	
+	}
+
+	&, &:focus {
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgDanger;
+		} @else {
+			border: none;
+		}
+	}
+
+	&:hover, &:active, &:active:focus {
+		background: lighten($button_bgDanger, 6%);
+		@if $button_borderWidth {
+			border: $button_borderWidth solid lighten($button_bgDanger, 6%);
+		} @else {
+			border: none;
+		}
+	}
+
+}
+
+.btn.btn-warning {
+
+	&.btn-color {
+		background: $button_bgWarning;	
+	}
+
+	&, &:focus {
+		@if $button_borderWidth {
+			border: $button_borderWidth solid $button_bgWarning;
+		} @else {
+			border: none;
+		}
+
+	}
+
+	&:hover, &:active, &:active:focus {
+		background: lighten($button_bgWarning, 6%);
+		@if $button_borderWidth {
+			border: $button_borderWidth solid lighten($button_bgWarning, 6%);
+		} @else {
+			border: none;
+		}
+	}
+
+}
+
+.btn.active.focus, input.active.focus[type="submit"], input.active.focus[type="button"], .btn.active:focus, input.active[type="submit"]:focus, input.active[type="button"]:focus, .btn.focus, input.focus[type="submit"], input.focus[type="button"], .btn:active.focus, input[type="submit"]:active.focus, input[type="button"]:active.focus, .btn:active:focus, input[type="submit"]:active:focus, input[type="button"]:active:focus, .btn:focus, input[type="submit"]:focus, input[type="button"]:focus {
+	outline: 0;
+}
+
+.shortcode-button {
+	margin: 15px 10px 0 0;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
